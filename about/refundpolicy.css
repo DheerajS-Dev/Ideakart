@@ -1,0 +1,38 @@
+#container {
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+p {
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -0.003em;
+    font-weight: 400;
+    font-style: normal
+}
+#ul{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    width: fit-content;
+    margin-left: 10%;
+    
+}
+#ul>ul>p{
+    margin-left: -30%;
+   font-size: 20px;
+}
+a{
+    list-style: disc;
+    text-decoration: none;
+    color: #337ab7;
+    font-size: 22px;
+    
+    
+}
