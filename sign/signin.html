@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <title>IdeaKart</title>
+</head>
+<body>
+    
+    <form>
+        <h1 class="h">Log in</h1>
+        <div class="mail">
+            <label ><strong></b>Email</strong></label><br>
+            <input   type="email" value=""  id="email"><br>
+        </div>
+        <div class="pass">
+            <label ><strong>Password</strong></label><br>
+            <input   type="password" value=""  id="password"><br>
+        </div>
+            <input type="checkbox" > 
+            <label for="" ><strong>Remeber me</strong></label><br>
+            <button class="btn">Log in</button><br>
+            <a href="signup.html">Sign up</a><br>
+            <a href="forgot.html">Forget Your Password?</a>
+      
+    </form>
+
+</body>
+</html>
+
+
+<script>
+var form=document.querySelector("form");
+var userData=JSON.parse(localStorage.getItem("userData"));
+
+
+form.addEventListener("submit",function(event){
+    event.preventDefault();
+
+var user=userData.filter(function(e){
+        return e.email===form.email.value && e.password===form.password.value
+    })
+    if(user.length>0){
+        alert("Sign in Sucessfully");
+        localStorage.setItem("signin",user[0].name)
+        // console.log(e.name)
+        window.location.href="ex.html"}
+        else if(userData.email===data.email && userData.password!==data.password){
+        alert("Incorrect Password");
+    }
+        
+        else{
+            alert("Please Create an account")
+        }
+
+
+   
+    
+
+})
+
+</script>

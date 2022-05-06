@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>IdeaKart</title>
+</head>
+<body>
+    
+    <form>
+        
+        <h1 class="h">Sign up</h1>
+        <div class="Name">
+            <label ><strong></b>Name</strong></label><br>
+            <input   type="name"  id="name"><br>
+        </div>
+        <div class="Mobile">
+            <label ><strong></b>Mobile Number</strong></label><br>
+            <input   type="number"  id="mobile"><br>
+        </div>
+        <div class="Email">
+            <label ><strong></b>Email</strong></label><br>
+            <input   type="email"   id="email"><br>
+        </div>
+        <div class="password">
+            <label ><strong></b>Password</strong></label><br>
+            <input   type="password"  id="password"><br>
+        </div>
+        <div class="password">
+            <label ><strong>Password Confirmation</strong></label><br>
+            <input   type="password"   id="Confirmation"><br>
+        </div>
+           
+            <input type="submit" value="Sign up"  class="btn" ></input><br>
+            <a href="signin.html">Log in</a><br>
+            
+      
+    </form>
+
+</body>
+</html>
+<script>
+    const form= document.querySelector("form");
+    const name=document.querySelector("#name");
+    const mobile=document.querySelector("#mobile");
+    const email=document.querySelector("#email");
+    const password=document.querySelector("#password");
+    const Confirmation=document.querySelector("#Confirmation");
+    
+   
+    var data=JSON.parse(localStorage.getItem("userData")) || [];
+    
+        form.addEventListener("submit", function(event){
+            event.preventDefault();
+            if(password.value===Confirmation.value){
+                var data1={
+            name:name.value,
+            mobile:mobile.value,
+            email:email.value,
+            password:password.value,
+            Confirmation:Confirmation.value
+        }
+        data.push(data1);
+
+        localStorage.setItem("userData",JSON.stringify(data));
+        window.location.href="signin.html"
+            }
+        else{
+            alert("Password Mismatch")
+        }
+        });
+       
+</script>
