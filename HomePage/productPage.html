@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Product</title>
     <link rel="stylesheet" href="productPage.css" />
+    <link rel="stylesheet" href="../Navbar/navbar.css">
+    <link rel="stylesheet" href="../about/about.css">
   </head>
   <body>
+    <div id="navbar">
+      <div>
+          <div>
+              <h4 id="iKart"><a href="../HomePage/index.html">IDEAKART</a></h4>               
+          </div>
+          <div>
+              <input type="text" placeholder="Search" id="search">
+              <div id="button"><a href="../SearchPage/searchPage.html">Search</a></div>
+          </div>
+          <div>
+              <div><a href="../about/about.html">About</a></div>
+              <div><a href="../ConatactPage/contact.html">Contact</a></div>
+              <div><a href="../sign/signin.html">Sign In</a></div>
+              <div><a href="../sign/signup.html">Sign Up</a></div>
+          </div>
+      </div>
+  </div>
+  
+  <!-- Individual Part -->
+
     <div class="container">
       <div class="links">
         <a href="#">Home</a>
@@ -131,7 +153,7 @@
               <tbody id="body">
                 <tr>
                   <td>Amazon, Paperback</td>
-                  <td>Rs. 369.0</td>
+                  <td id="price_mini">Rs. 369.0</td>
                   <td><button id="table-buy">Buy Now</button></td>
                 </tr>
               </tbody>
@@ -250,6 +272,21 @@
       <p id="para">Top Read Books</p>
       <h3>Top Reads</h3>
     </div>
+
+    <!-- About Part -->
+
+    <div id="ul">
+      <ul>
+          <p>Get To Know Us</p>
+          <li><a href="about.html"> About</a></li>
+          <li><a href="../ConatactPage/contact.html">Contact</a></li>
+          <li><a href="../SearchPage/searchPage.html">Search</a></li>
+          <li><a href="privacyPolicy.html"> Privacy Policy </a></li>
+          <li><a href="refundPolicy.html"> Refund policy</a></li>
+          <li> <a href="earnMoney.html"> Earn Money Online </a></li>
+          <li><a href="none"> QuickBuyer </a></li>
+      </ul>
+  </div>
   </body>
 </html>
 

@@ -1,58 +1,55 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-form{
-    
-    display: block;
-    margin-left: 180px;
-  
+form {
+  display: block;
+  margin-left: 180px;
 }
-input{
-    outline: none;
-    border: 2px solid #ccc;
+input {
+  outline: none;
+  border: 2px solid #ccc;
 }
-input:focus{
-    border: 1px solid rgb(12, 181, 233);
+input:focus {
+  border: 1px solid rgb(12, 181, 233);
 }
-#mobile{
-    width: 80%;
-    height: 30px;
-    margin-bottom: 20px;
+#mobile {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
 }
-#name{
-    width: 80%;
-    height: 30px;
-    margin-bottom: 20px;
+#name {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
 }
-#email{
-    width: 80%;
-    height: 30px;
-    margin-bottom: 20px;
+#email {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
 }
-#password{
-    width: 80%;
-    height: 30px;
-    margin-bottom: 20px;
+#pass1 {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
 }
-#Confirmation{
-    width: 80%;
-    height: 30px;
-    margin-bottom: 20px;
- 
+#pass2 {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
 }
-.btn{
-    background-color: #5CB85C;
-    color: white;
-    width: 60px;
-    height: 40px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    cursor: pointer;
+.btn {
+  background-color: #5cb85c;
+  color: white;
+  width: 60px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.h{
-    margin-top: 20px;
-    margin-bottom: 20px;
-} 
+.h {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,17 +1,10 @@
-#container {
-    /* border: 1px solid black; */
+#containerA {
     width: 80%;
     margin: auto;
     font-size: 18px;
 line-height: 1.58;
 }
-
-div+p {
-    margin-left: 10%;
-
-}
 #ul{
-    /* border: 1px solid black; */
     margin-top: 50px;
     width: fit-content;
     margin-left: 10%;
@@ -21,7 +14,7 @@ div+p {
     margin-left: -30%;
    font-size: 18px;
 }
-a{
+#ul a{
     text-decoration: none;
     color: #337ab7;
     font-size: 13px;

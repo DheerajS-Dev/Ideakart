@@ -14,7 +14,7 @@ h3{
 }
 #container{
     width: 87%;
-    height: 100px;
+    height: auto;
     margin: auto;
     margin-top: 9px;
     margin-bottom: 50px;
