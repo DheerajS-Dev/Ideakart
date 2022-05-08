@@ -1,69 +1,40 @@
-#head{
-    margin-left: 8%;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-#cards{
-    /* border: 1px solid red; */
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    display:flex;
-    margin: auto;
-    justify-content: space-between;
-    
-}
-#cards>div{
+#containerE{
     border: 1px solid black;
-    width: 30%;
-    text-align: justify;
-    padding: 10px;
-    height: fit-content;
-}
-#cards>div>span{
+    height: 500px;
+    width: 85%;
     margin: auto;
-
+    margin-top: 20px;
 }
-.number{
+#containerE h1{
+    font-size: 35px;
+    font-weight: 200;
+}
+#eCards{
+    width: 97%;
+    margin: auto;
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto);
+    gap: 30px;
+}
+#eCards>div{
+    border: 1px solid black;
+    height: auto;
+    padding: 20px;
+}
+.eNumber{
+    height: 5px;
+    width: 5px;
+    padding: 10px 10px;
     display: flex;
     justify-content: center;
-    width: 20px;
-    background-color: aliceblue;
-  
-    border-radius: 20px;
-}
-#video{
-    /* border: 1px solid black; */
-    width: fit-content;
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px;
-}
-button{
-   display: inline-block;
-   margin-left: 45%;
-   margin-top: 20px;
-   color:white;
-   border-color: #2e6da4;
-   background-color: #337ab7;
-   font-weight: normal;
-   cursor: pointer;
-   border-radius: 5px;
-   padding: 10px;
-
-}
-#ul{
-    /* border: 1px solid black; */
-    margin-top: 50px;
-    width: fit-content;
-    margin-left: 10%;
-    
-}
-#ul>ul>p{
-    margin-left: -30%;
-   font-size: 20px;
-}
-a{
-    list-style: disc;
-    text-decoration: none;
-    color: #337ab7;
-    font-size: 22px;
+    align-items: center;
+    background-color: rgb(240,248,255);
+    border-radius: 40%;
+    margin: 0px 50%;
 }

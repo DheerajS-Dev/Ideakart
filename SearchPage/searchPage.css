@@ -29,3 +29,7 @@ input:focus{
     grid-template-rows: repeat(auto);
     gap: 0px 30px;
 }
+#container p{
+    font-size: 18px;
+    margin: -10px 10px;
+}

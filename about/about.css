@@ -1,22 +1,29 @@
 #containerA {
-    width: 80%;
+    width: 85%;
     margin: auto;
-    font-size: 18px;
-line-height: 1.58;
+    margin-top: 10px;
+}
+#containerA p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
 }
 #ul{
+    width: 79%;
+    margin: auto;
     margin-top: 50px;
-    width: fit-content;
-    margin-left: 10%;
-    
+    margin-bottom: 10px;
 }
-#ul>ul>p{
-    margin-left: -30%;
-   font-size: 18px;
+#ul p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+li{
+    margin-left: 40px;
 }
 #ul a{
     text-decoration: none;
     color: #337ab7;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

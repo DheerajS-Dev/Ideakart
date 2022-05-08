@@ -13,6 +13,7 @@
   height: 100%;
   margin: auto;
   display: flex;
+  justify-content: space-between;
 }
 #navbar > div > div {
   display: flex;
@@ -42,6 +43,10 @@
   outline: none;
   padding-left: 10px;
   border-radius: 3.5px;
+}
+#navbar input:focus {
+  box-shadow: rgba(9, 164, 211, 0.05) 0px 1px 0px,
+    rgba(8, 170, 219, 0.6) 0px 0px 8px;
 }
 #button {
   border: 1px solid rgb(225, 225, 225);
@@ -76,4 +81,35 @@
   background-color: rgb(40, 116, 240);
   color: white;
   border: none;
+}
+@media all and (min-width: 450px) and (max-width: 800px) {
+  #navbar > div {
+    width: 90%;
+  }
+  #navbar > div > div:nth-child(2) {
+    height: 100%;
+    width: 40%;
+  }
+  #navbar > div > div:nth-child(3) {
+    height: 100%;
+    width: 40%;
+    justify-content: space-around;
+  }
+  #navbar input {
+    margin-left: 20px;
+  }
+}
+@media all and (min-width: 50px) and (max-width: 450px) {
+  #navbar > div {
+    width: 95%;
+  }
+  #navbar > div > div:nth-child(2) {
+    height: 100%;
+    width: 30%;
+  }
+  #navbar > div > div:nth-child(3) {
+    height: 100%;
+    width: 45%;
+    justify-content: space-around;
+  }
 }

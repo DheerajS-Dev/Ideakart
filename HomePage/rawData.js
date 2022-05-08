@@ -1,435 +1,647 @@
 var dataArr = [
-    {
-        imgUrl : "https://m.media-amazon.com/images/I/41xgPSqzJnL.jpg" ,
-        head1 : "Superior: The Return of Race Science",
-        head2 : "Angela Saini's Superior: The Return of Race Science",
-        details : "When you see how power has shaped the idea of race, then you can start to understand its meaning. For millennia, dominant societies have had the habit of believing their own people to be the best, deep down: the more powerful they become, the more power begins to be framed as natural, as well as cultural. In the twenty-first century, we like to believe that we have moved beyond Scientific racism, that most people accept race as a social construct, not a biological one. But race science is experiencing a revival, fuelled by the misuse of science by certain political groups. Even well-intentioned scientists, through their use of racial Categories in Genetics and medicine, betray their suspicion that race has some basis in biology. In truth, it is no more real than it was hundreds of years ago, when our racial hierarchies were devised by those in power. In Superior, award-winning author Angela Saini explores the concept of race, from its origins to the present day. Engaging with geneticists, anthropologists, historians and social scientists from across the globe, Superior is a rigorous, much-needed examination of the insidious and destructive nature of race science." ,
-        price : "407" ,
-        author: "Angela Saini" ,
-        whyData : "Why you should read Superior: The Return of Race Science by Angela Saini" ,
-        whyDetails : "This book has been written by Risto Siilasmaa, who has written books like Transforming NOKIA: The Power of Paranoid Optimism to Lead Through Colossal Change. The books are written in Business, Strategy & Management category. This book is read by people who are interested in reading books in category : Business, Strategy & Management. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Superior: The Return of Race Science" ,
-        buyNow : "" ,
-        pageNo : "" ,
-    } ,
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41NcBucflHL.jpg" ,
-        head1 : "Cfa Level 1 Calculation Workbook: 300 Calculations to Prepare for the Cfa Level 1 Exam (2019 Edition)" ,
-        head2 : "Coventry House Publishing's Cfa Level 1 Calculation Workbook: 300 Calculations to Prepare for the Cfa Level 1 Exam (2019 Edition)" ,
-        details : "Message from the publisher: This book contains short, concise questions and answers that are intended to reinforce CFA topics already learned. It does not include lengthy paragraph style questions and answers that are provided by the CFA Institute.The CFA Level 1 Calculation Workbook provides 300 calculation questions to prepare for the demanding Chartered Financial Analyst (CFA) Level 1 Exam. Master exam topics with intensive practice in the essential areas you'll find on the test. Whether you're challenging the exam for the first Time or trying again after an unsuccessful attempt, you will learn the critical skills needed to master the exam.Included are 50 question exams for the following topics: - Quantitative Methods- Economic Analysis- Financial Statement Analysis- Corporate Finance & Portfolio Management- Equity & Fixed Income Investments- Derivatives & Alternative InvestmentsAbout the CFA ProgramThe Chartered Financial Analyst (CFA) credential is the most respected and widely recognized investment Management designation in the world. The CFA program provides a strong Foundation of advanced investment analysis and real-world portfolio Management skills that members use through all stages of their careers. By earning the CFA designation, you will join a vast Professional network of more than 135,000 charterholders worldwide, and you'll gain unmatched credibility and career resources." ,
-        price : "1905" ,
-        author : "Coventry House Publishing" ,
-        whyData : "Why you should read Cfa Level 1 Calculation Workbook: 300 Calculations to Prepare for the Cfa Level 1 Exam (2019 Edition) by Coventry House Publishing" ,
-        whyDetails: "This book has been written by Coventry House Publishing, who has written books like Cfa Level 1 Calculation Workbook: 300 Calculations to Prepare for the Cfa Level 1 Exam (2019 Edition),Cfa Level 1 Calculation Workbook: 300 Calculations to Prepare for the Cfa Level 1 Exam (2018 Edition),CFA Level 1 Calculation Workbook: 300 Calculations to Prepare for the CFA Level 1 Exam (2017 Edition). The books are written in Business, Strategy & Management category. This book is read by people who are interested in reading books in category : Business, Strategy & Management. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Cfa Level 1 Calculation Workbook: 300 Calculations to Prepare for the Cfa Level 1 Exam (2019 Edition)" ,
-    } ,
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51Yrxqrk3HL.jpg" ,
-        head1 : "Untitled" ,
-        head2 : "Sudeep Nagarkar's Untitled" ,
-        details : "Should I smile because we are friends or cry because we are just friends?Blessed with the gift of the gab, Apurv manages to charm everyone in his company. Like most teenage boys, he longs for a girlfriend but hasn't found one yet. In another part of town, beautiful and popular Amyra leads a flawless life. All the Boys desire her and all the Girls want to be her best friend. A chance encounter with Amyra in the college canteen makes Apurv fall head over heels for her. But it isn't long before he realizes that she is not interested in him, at least not in the way he wants her to be. Can Apurv get Amyra to change her mind before it's too late, or will he be friend-zoned forever?" ,
-        price : "126" ,
-        author : "	Sudeep Nagarkar" ,
-        whyData : "Why you should read Untitled by Sudeep Nagarkar" ,
-        whyDetails : "This book has been written by Sudeep Nagarkar, who has written books like Stand By Me!,The Secrets We Keep,Untitled,That’s the Way We Met,Sorry, You’re Not My Type (Marathi). The books are written in Crime, Thriller & Mystery,Contemporary Fiction,Classic Fiction,Romance category. This book is read by people who are interested in reading books in category : Contemporary Fiction. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Untitled" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51irhycRU5L.jpg",
+    head1:
+      "NTSE Stage 1 Question Bank - 9 States Past (2012-17) + Practice Questions",
+    head2:
+      "Disha Experts's NTSE Stage 1 Question Bank - 9 States Past (2012-17) + Practice Questions",
+    details:
+      "The thoroughly Revised and Updated 2nd Edition of the book 'NTSE Stage 1 Question Bank (9 States Past 2012-17 + Practice Questions) 2nd Edition' can be divided into 2 parts. Part 1 provides a compilation of FULLY SOLVED Selective Questions of NTSE STAGE 1 of multiple states Delhi, Andhra Pradesh, Karnataka, Madhya Pradesh, Orissa, Punjab, West Bengal, Rajasthan, Maharashtra.Part 2 provides practice Questions for each sections - MAT, English, Physics, Chemistry, Biology, Mathematics, History, Geography, Economics and Civics.",
+    PageNos: "308",
+    price: "186",
+    author: "	Disha Experts",
+    whyData:
+      "Why you should read NTSE Stage 1 Question Bank - 9 States Past (2012-17) + Practice Questions by Disha Experts",
+    whyDetails:
+      "This book has been written by Disha Experts, who has written books like GO to CLAT Guide with Passage Based Questions,Legal Aptitude & Reasoning for CLAT & AILET Exams,DRDO Multi Tasking Staff (CEPTAM) Tier I & II Pariksha Guide 2020 Hindi Edition,DRDO Multi Tasking Staff (CEPTAM) 2020 Tier I & II Exam 24 Practice Sets with 4 Online Tests,22 JEE Main Online 2019 & 2020 Solved Papers with FREE 5 Online Mock Tests. The books are written in Law Entrance Exams,Defence,JEE Main category. This book is read by people who are interested in reading books in category : NTSE. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read NTSE Stage 1 Question Bank - 9 States Past (2012-17) + Practice Questions",
+    buyNow:
+      "https://www.amazon.in/NTSE-Stage-Question-Bank-Questions/dp/938824043X?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=938824043X",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/417aFAhu12L.jpg" ,
-        head1 : "Done Deal: An Insider's Guide to Football Contracts, Multi-Million Pound Transfers and Premier League Big Business" ,
-        head2 : "Daniel Geey's Done Deal: An Insider's Guide to Football Contracts, Multi-Million Pound Transfers and Premier League Big Businessvv" ,
-        details : "Insightful, enlightening and thought-provoking, leading Premier League lawyer Daniel Geey lifts the lid on the inner workings of modern Football. Whether it is a manager being sacked, the signing of a new star player, Television rights negotiations, player misconduct or multi-million-pound club takeovers, lawyers remain at the heart of all Football Business dealings. Written by leading Premier League lawyer Daniel Geey, who has dealt with all these incidents first hand, this highly accessible book explores the Issues – from pitch to boardroom – that shape the modern game and how these impact leagues, clubs, Players and Fans. Featuring insider anecdotes and expert contributions, Done Deal provides Football Fans with a fresh and authoritative perspective on all off-field Football matters." ,
-        price : "1084" ,
-        author : "	Daniel Geey" ,
-        whyData : "Why you should read Done Deal: An Insider's Guide to Football Contracts, Multi-Million Pound Transfers and Premier League Big Business by Daniel Geey" ,
-        whyDetails : "This book has been written by Daniel Geey, who has written books like Done Deal: An Insider's Guide to Football Contracts, Multi-Million Pound Transfers and Premier League Big Business,Done Deal: An Insider's Guide to Football Contracts, Multi-Million Pound Transfers and Premier League Big Business. The books are written in Business, Strategy & Management,Business & Economics category. This book is read by people who are interested in reading books in category : Business & Economics. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Done Deal: An Insider's Guide to Football Contracts, Multi-Million Pound Transfers and Premier League Big Business" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51xlOvuU8HL.jpg",
+    head1:
+      "IBPS RRB OFFICER SCALE 1 CRP 8 2019 PRELIMINARY + MAIN Previous Year Solved Papers (2009 to 2018) Practice Sets with Solutions",
+    head2:
+      "Edurise Publication's IBPS RRB OFFICER SCALE 1 CRP 8 2019 PRELIMINARY + MAIN Previous Year Solved Papers (2009 to 2018) Practice Sets with Solutions",
+    details:
+      "Book Contains: Thirteen previous years solved papers (Including IBPS RRB CRP - VII OFFICER , PRE + MAIN 2018) and five practice papers of PRELIMINARY and three practice papers of MAIN Examination based on latest pattern and examination level with well-illustrated, step by step solutions. The book contains breakup of actual vacancy filled in year 2015 and indicative vacancy details of year 2016 - 19, which would help students become more aware and mentally prepare for the competition ahead. The book is best suited for students for quick SELF-PREPARATION.",
+    PageNos: "280",
+    price: "276",
+    author: "	Edurise Publication",
+    whyData:
+      "Why you should read IBPS RRB OFFICER SCALE 1 CRP 8 2019 PRELIMINARY + MAIN Previous Year Solved Papers (2009 to 2018) Practice Sets with Solutions by Edurise Publication",
+    whyDetails:
+      "This book has been written by Edurise Publication, who has written books like SSC CGL Tier 1 2019 TOPIC WISE CHAPTER WISE Previous Year Solved paper & Practice Paper,SSC CGL Tier 1 2019 Solved Papers Practice Papers: Vol. 1,IBPS RRB OFFICER SCALE 1 CRP 8 2019 PRELIMINARY + MAIN Previous Year Solved Papers (2009 to 2018) Practice Sets with Solutions,Railway Recruitment Board RRB NTPC 2019 Non Technical Popular Categories Previous Year Topic Wise Solved Papers CBT Stage 1 & 2 Exam,Railway Recruitment Board RRB NTPC 2019 Non Technical Popular Categories 26 Previous Year Solved Papers CBT Stage 1 & 2 Exam. The books are written in SSC,Bank Specialist Officers Exams,Indian Railways Recruitment category. This book is read by people who are interested in reading books in category : Bank Specialist Officers Exams. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read IBPS RRB OFFICER SCALE 1 CRP 8 2019 PRELIMINARY + MAIN Previous Year Solved Papers (2009 to 2018) Practice Sets with Solutions",
+    buyNow:
+      "https://www.amazon.in/OFFICER-PRELIMINARY-Previous-Practice-Solutions/dp/8194155878?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=8194155878",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51Jrj19QzcL.jpg" ,
-        head1 : "Indian Nuclear Strategy : Confronting the Potential Threat from both China and Pakistan" ,
-        head2 : "Sanjay Badri-Maharaj's Indian Nuclear Strategy : Confronting the Potential Threat from both China and Pakistan" ,
-        details : "Twenty years after the 1998 nuclear tests and the publication of India's Nuclear Doctrine, India has continued to Face endemic Security challenges from both China and Pakistan. The latter, through the apparent induction of tactical nuclear weapons into the equation and a rapid expansion of its fissile material production capacity has introduced an additional complication into Indian Security calculations while China has become increasingly assertive and intransigent in its conduct towards its neighbours. India's nuclear strategy, facing a changing landscape, has shown some degree of flexibility though this has not been adequately articulated. Furthermore, discussion of India's nuclear strategy, such that it is, has been somewhat one-dimensional with an excessive and, it is argued, unnecessary debate over the stated Indian policy of no-first-use. This book examines India's nuclear strategy as it confronts the potential threat from both China and Pakistan. The potential threats - traditional as well as non-traditional CBRN threats - will be examined as will India's approach to dealing with them. India's nuclear arsenal, its dual purpose civil-military space program and its nascent BMD capability will be explored with a view to informing the reader as to the steps taken by India to confront its nuclear challenges. In addition, the Indian nuclear doctrine and the strategy evolved therefrom is examined to demonstrate the flexibility inherent in the Indian nuclear doctrine while also highlighting certain areas that require attention. By adopting an excessively secretive approach, India has failed to articulate its approach to nuclear strategy. It is perhaps Time that India reconsiders this approach and facilitates a more public and forthright discussion of its nuclear strategy in light of evolving nuclear threats while simultaneously continuing to develop its capabilities so as to deter any potential conflict." ,
-        price : "646" ,
-        author : "	Sanjay Badri-Maharaj" ,
-        whyData : "Why you should read Indian Nuclear Strategy : Confronting the Potential Threat from both China and Pakistan by Sanjay Badri-Maharaj" ,
-        whyDetails : "This book has been written by Sanjay Badri-Maharaj, who has written books like Indian Nuclear Strategy : Confronting the Potential Threat from both China and Pakistan. The books are written in International Relations & Globalization category. This book is read by people who are interested in reading books in category : International Relations & Globalization. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Indian Nuclear Strategy : Confronting the Potential Threat from both China and Pakistan" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/511LN9y5PSL.jpg",
+    head1:
+      "Trinity College London Electronic Keyboard Exam Pieces & Technical Work 2019-2022: Grade 8",
+    head2: "",
+    details:
+      "This book contains everything needed to prepare for the performance and technical Work Components of a Trinity Electronic Keyboard Grade 8 exam in 2019-2022. All pieces have been composed or arranged specifically for the keyboard, and encompass a wide range of styles from classical favourites to TV, film or show themes. The own interpretation piece allows the candidate to create a Personal arrangement, choosing their own voices, style, keyboard functions and interpretation. Also included are the scales, chord knowledge and exercises that form the technical Work component of the exam. Demonstration recordings can be downloaded free. This series provides progressive steps in performance and keyboard functions for all electronic keyboard students, whether preparing for a Trinity exam or studying on another path.",
+    PageNos: "56",
+    price: "895",
+    author: "",
+    whyData: "",
+    whyDetails: "",
+    howData:
+      "How long would it take for you to read Trinity College London Electronic Keyboard Exam Pieces & Technical Work 2019-2022: Grade 8",
+    buyNow:
+      "https://www.amazon.in/Trinity-Electronic-Keyboard-Technical-2019-2022/dp/0857367854?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=0857367854",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51pqyKkw96L.jpg" ,
-        head1 : "Critical Care Secrets, 6e" ,
-        head2 : "Polly E. Parsons MD's Critical Care Secrets, 6e" ,
-        details : "For more than 30 years, the highly regarded Secrets Series® has provided students and practitioners in all areas of Health care with concise, focused, and engaging Resources for quick Reference and exam review. Critical Care Secrets, 6th Edition, features the Secrets' popular question-and-answer format that also includes lists, tables, and an easy-to-read style - making Reference and review quick, easy, and enjoyable.Fully updated throughout, with new chapters on neurological monitoring, obesity in the ICU, new ultrasound practices, ICU survivorship, and the latest cardiac Technology such as ventricular assist and percutaneous support devices.Written and fully updated by clinical and thought leaders in Critical Care who have contributed chapters in their areas of expertise.The proven Secrets Series® format gives you the most return for your Time - concise, easy to read, engaging, and highly effective.Covers the full range of essential topics in Critical Care for in-training or practicing professionals, including anatomy, physiology, immunology, and inflammation - fundamentally important topics in the effective care of critically ill patients.Top 100 Secrets and Key Points boxes provide a fast overview of the secrets you must know for success in practice and on exams.Portable size makes it easy to carry with you for quick Reference or review anywhere, anytime.Expert ConsultT eBook version included with purchase. This enhanced eBook experience allows you to search all of the text, figures, and References from the book on a variety of devices." ,
-        price : "2239" ,
-        author : "	Polly E. Parsons MD" ,
-        whyData : "Why you should read Critical Care Secrets, 6e by Polly E. Parsons MD" ,
-        whyDetails : "This book has been written by Polly E. Parsons MD, who has written books like Critical Care Secrets: First South Asia Edition,Critical Care Secrets, 6e,Pulmonary/Respiratory Therapy Secrets,Critical Care Secrets, 5e. The books are written in Emergency Medical Services,Critical Care,Reference category. This book is read by people who are interested in reading books in category : Critical Care. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Critical Care Secrets, 6e" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/41xm1sTpXZL.jpg",
+    head1:
+      "Learn SQL: the beginner's guide that explain to you step by step the computer programming SQL language and how to program your first database using MySQL + practical exercises",
+    head2:
+      "Adam Harris's Learn SQL: the beginner's guide that explain to you step by step the computer programming SQL language and how to program your first database using MySQL + practical exercises",
+    details:
+      "Are you looking for a simple programming language to learn? If so, then keep reading.SQL is a great language to learn for any business who wants to be able to keep things organized and it can open the doors for a lot of cool things on your website and for promotion your business. Take a look at this guidebook and learn everything that you will need to know in order to use SQL for your business! SQL Stands for Structured Query Language and it is a computer language used for the creation of databases and manipulation of data. The manipulation, in this case, refers to the addition of data to the created database and manipulation of the same. It also involves its deletion. All these tasks can be done using SQL. SQL is the most popular language used in database Management Systems like MySQL, SQL Server, and Oracle. This can be attributed to the fact that SQL comes with a simple syntax which anyone can grasp with much ease. Why do you need SQL?You can use SQL to create a database within your database Management system. Once the database has been created, you need to create tables within the database so you can use them for Storage of your data. This means that tables are the actual data Storage structures in a database. The table is a combination of rows and columns that can be used for data Storage. SQL comes with built-in commands you can use to insert data into the tables. Once the data has been added to the table, you can still manipulate it whenever there is a need. You can also delete the data and the various objects you have stored in the database. This guide covers the following: Creating a Database in SQL Server The SQL Structure Database Administration Structure of the SELECT Statement SQL Data Types Preparation Filters 14-SQL Subqueries Database Components How to Manage Database Objects Database Advance Topics Clauses and Queries... AND MORE!!! If you have a website or not or you want to create it, this guidebook give you all the tools and the knowledge to keep organized your database. If you're thinking 'I've never studied a programming language, so I can't do it' don't worry, this book is for beginners.So scroll up and click the buy now button.",
+    PageNos: "	234",
+    price: "1218",
+    author: "	Adam Harris",
+    whyData:
+      "Why you should read Learn SQL: the beginner's guide that explain to you step by step the computer programming SQL language and how to program your first database using MySQL + practical exercises by Adam Harris",
+    whyDetails:
+      "This book has been written by Adam Harris, who has written books like Learn SQL: the beginner's guide that explain to you step by step the computer programming SQL language and how to program your first database using MySQL + practical exercises. The books are written in Languages category. This book is read by people who are interested in reading books in category : Languages. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Learn SQL: the beginner's guide that explain to you step by step the computer programming SQL language and how to program your first database using MySQL + practical exercises",
+    buyNow:
+      "https://www.amazon.in/Learn-SQL-beginners-programming-practical/dp/1705901298?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1705901298",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41FiFeflJ3L.jpg" ,
-        head1 : "Superbugs – An Arms Race against Bacteria" ,
-        head2 : "William Hall's Superbugs – An Arms Race against Bacteria" ,
-        details : "Antibiotics are powerful Drugs that can prevent and treat infections, but they are becoming less effective as a result of drug resistance. Superbugs describes this growing global threat, the systematic failures that have led to it, and solutions that governments, industries, and public Health specialists can adopt." ,
-        price : "1147" ,
-        author : "	William Hall" ,
-        whyData : "Why you should read Superbugs – An Arms Race against Bacteria by William Hall" ,
-        whyDetails : "This book has been written by William Hall, who has written books like Superbugs – An Arms Race against Bacteria,Wood. The books are written in Economic Policy & Development,Architecture category. This book is read by people who are interested in reading books in category : Economic Policy & Development. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Superbugs – An Arms Race against Bacteria" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/41vXXTmniTL.jpg",
+    head1:
+      "Santa's Favorite Dentist: Christmas Dentist Journal, Gift for Dentist, Dental Student-100 Blank Lined Pages, ",
+    head2:
+      "Just Notebooks's Santa's Favorite Dentist: Christmas Dentist Journal, Gift for Dentist, Dental Student-100 Blank Lined Pages, ",
+    details:
+      "Santa's Favorite DentistChristmas Journal for Dentist, Gift for Dentist, Gift for Dental Student, Dentist Christmas Gift Cute gift idea for dentist, future dentist. You can write whatever you want in it, you can draw something or glue in an item.Journal Features: 100 pagesNeutral wide-ruled Paper with a line at the top for date, and space for sketches and moreSize  (15.24 x 22.86 cm)- the ideal size for all purposes, fitting perfectly into your bagSoft, glossy coverNon-spiral bound (book will not open flat)Non-perforatedA great gift for Christmas lovers!Christmas 2019, Christmas Gift Idea, Christmas Gift Notebook, Christmas Gift JournalCheck out our whole range of Notebooks on our Amazon Author page.",
+    PageNos: "104",
+    price: "407",
+    author: "	Just Notebooks",
+    whyData:
+      "Why you should read Santa's Favorite Dentist: Christmas Dentist Journal, Gift for Dentist, Dental Student-100 Blank Lined Pages, Dentist Christmas Gift by Just Notebooks",
+    whyDetails:
+      "This book has been written by Just Notebooks, who has written books like Santa's Favorite Dentist: Christmas Dentist Journal, Gift for Dentist, Dental Student-100 Blank Lined Pages, Dentist Christmas Gift. The books are written in General category. This book is read by people who are interested in reading books in category : General. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Santa's Favorite Dentist: Christmas Dentist Journal, Gift for Dentist, Dental Student-100 Blank Lined Pages, Dentist Christmas Gift",
+    buyNow:
+      "https://www.amazon.in/Santas-Favorite-Dentist-Christmas-Student-100/dp/1712406434?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1712406434",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41QRbgvLW8L.jpg" ,
-        head1 : "The Scandal of the Century: And Other Writings" ,
-        head2 : "Gabriel García Márquez's The Scandal of the Century: And Other Writings" ,
-        details : "The articles and columns in The Scandal of the Century demonstrate that his forthright, lightly ironical voice just seemed to be there, right from the start. . . . He’s among those rare great fiction writers whose ancillary work is almost always worth finding. . . . He had a way of connecting the souls in all his writing, fiction and nonfiction, to the melancholy static of the universe.” --Dwight Garner, The New York TimesFrom one of the titans of twentieth-century literature, collected here for the first time: a selection of his journalism from the late 1940s to the mid-1980s--work that he considered even more important to his legacy than his universally acclaimed works of fiction.I don't want to be remembered for One Hundred Years of Solitude or for the Nobel Prize but rather for my journalism, Gabriel García Márquez said in the final years of his life. And while some of his journalistic writings have been made available over the years, this is the first volume to gather a representative selection from across the first four decades of his career--years during which he worked as a full-time, often muckraking, and controversial journalist, even as he penned the fiction that would bring him the Nobel Prize in 1982. Here are the first pieces he wrote while working for newspapers in the coastal Colombian cities of Cartagena and Barranquilla . . . his longer, more fictionlike reportage from Paris and Rome . . . his monthly columns for Spain's El País. And while all the work points in style, wit, depth, and passion to his fiction, these fifty pieces are, more than anything, a revelation of the writer working at the profession he believed to be",
-        price : "1328" ,
-        author : "	Gabriel García Márquez" ,
-        whyData : "Why you should read The Scandal of the Century: And Other Writings by Gabriel García Márquez" ,
-        whyDetails : "This book has been written by Gabriel García Márquez, who has written books like The Scandal of the Century: And Other Writings,Clandestine in Chile: The Adventures of Miguel Littin (New York Review Books Classics). The books are written in Biographies & Autobiographies,Cinema & Broadcast category. This book is read by people who are interested in reading books in category : Biographies & Autobiographies. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read The Scandal of the Century: And Other Writings" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51Jfa8NnBSL.jpg",
+    head1:
+      "Fragile Lives: A Heart Surgeon’s Stories of Life and Death on the Operating Table",
+    head2:
+      "Stephen Westaby's Fragile Lives: A Heart Surgeon’s Stories of Life and Death on the Operating Table",
+    details:
+      "SHORTLISTED FOR THE COSTA BIOGRAPHY PRIZETHE SUNDAY TIMES NO.2 BESTSELLERWINNER OF THE BMA PRESIDENT’S AWARD 2017An incredible memoir from one of the world’s most eminent heart surgeons, recalling some of the most remarkable and poignant cases he’s worked on.Grim Reaper sits on the heart surgeon’s shoulder. A slip of the hand and life ebbs away.The balance between life and Death is so delicate, and the heart surgeon walks that rope between the two. In the operating room there is no Time for doubt. It is flesh, blood, rib-retractors and pumping the vital organ with your bare hand to squeeze the life back into it. An off-day can have dire consequences – this job has a steep learning curve, and the cost is measured in human life. Cardiac Surgery is not for the faint of heart.Professor Stephen Westaby took chances and pushed the boundaries of heart Surgery. He saved hundreds of lives over the course of a thirty-five year career and now, in his astounding memoir, Westaby details some of his most remarkable and poignant cases – such as the Baby who had suffered multiple heart attacks by six months old, a woman who lived the nightmare of locked-in syndrome, and a man whose life was powered by a battery for eight years.A powerful, important and incredibly moving book, Fragile Lives offers an exceptional insight into the exhilarating and sometimes tragic World of heart Surgery, and how it feels to hold someone’s life in your hands.",
+    PageNos: "320",
+    price: " 272",
+    author: "	Stephen Westaby",
+    whyData:
+      "Why you should read Fragile Lives: A Heart Surgeon’s Stories of Life and Death on the Operating Table by Stephen Westaby",
+    whyDetails:
+      "This book has been written by Stephen Westaby, who has written books like The Knife's Edge,The Knife’s Edge : The Heart and Mind of a Cardiac Surgeon,Fragile Lives: A Heart Surgeon’s Stories of Life and Death on the Operating Table,Open Heart: A Cardiac Surgeon?s Stories of Life and Death on the Operating Table,Fragile Lives: A Heart Surgeon's Stories of Life and Death on the Operating Table. The books are written in Biographies & Autobiographies category. This book is read by people who are interested in reading books in category : Biographies & Autobiographies. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Fragile Lives: A Heart Surgeon’s Stories of Life and Death on the Operating Table",
+    buyNow:
+      "https://www.amazon.in/Fragile-Lives-Surgeons-Stories-Operating/dp/0008196788?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=0008196788",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51BC2ilpWGL.jpg" ,
-        head1 : "Revolutionary Desires: Women, Communism and Feminism in India" ,
-        head2 : "Ania Loomba's Revolutionary Desires: Women, Communism and Feminism in India" ,
-        details : "Revolutionary Desires examines the lives and subjectivities of militant-nationalist and communist Women in India from the late 1920s, shortly after the communist movement took root, to the 1960s, when it fractured. This close study demonstrates how India's Revolutionary Women shaped a new female – and in some cases feminist – political subject in the twentieth century, in collaboration and contestation with Indian nationalist, liberal-feminist, and European left-wing Models of Women hood." ,
-        price : "523" ,
-        author : "	Ania Loomba" ,
-        whyData : "Why you should read Revolutionary Desires: Women, Communism and Feminism in India by Ania Loomba" ,
-        whyDetails : "This book has been written by Ania Loomba, who has written books like Revolutionary Desires: Women, Communism and Feminism in India,Shakespeare Race & Colonialism:,Shakespeare, Race, and Colonialism (Oxford Shakespeare Topics). The books are written in Gender Studies,Reference,History category. This book is read by people who are interested in reading books in category : Gender Studies. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Revolutionary Desires: Women, Communism and Feminism in India" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/41cUYgHtWrL.jpg",
+    head1: "HBR Guide for Women at Work",
+    head2: "Harvard Business Review's HBR Guide for Women at Work",
+    details:
+      "As a woman, you may not be reaching the Levels of leadership you desire. Despite the many efforts by Organizations and managers alike, unconscious bias and assumptions are still working against you. How can you plan a career as an aspiring leader if you can't get promoted? the HBR Guide for Women at Work will help you identify and overcome the factors that are preventing you from achieving your goals. It provides practical Tips and Advice so you can Face gendered stereotypes head on, make yourself visible for Opportunities and demonstrate your leadership potential. You'll learn to: Adjust your language so you're heard in meetings Use office Politics to your advantage Negotiate a job offer, raise or promotion Align yourself with mentors and sponsors to support your growth Show passion without being perceived as emotional Create your unique vision as a leader Arm yourself with the Advice you need to succeed on the job, with the most trusted brand in business. Packed with how-to essentials from leading experts, the HBR Guides provide smart answers to your most pressing Work challenges.",
+    PageNos: "192",
+    price: "371",
+    author: "	Harvard Business Review",
+    whyData:
+      "Why you should read HBR Guide for Women at Work by Harvard Business Review",
+    whyDetails:
+      "This book has been written by Harvard Business Review, who has written books like Cybersecurity (HBR Insights Series),Blockchain (HBR Insights Series),Artificial Intelligence (HBR Insights Series),HBR 10 Must Read on Business Model Innovation (HBR's 10 Must Reads),HBR's 10 Must Reads on Reinventing HR. The books are written in Business, Strategy & Management category. This book is read by people who are interested in reading books in category : Business, Strategy & Management. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read HBR Guide for Women at Work",
+    buyNow:
+      "https://www.amazon.in/HBR-Guide-Women-at-Work/dp/1633693368?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1633693368",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/5193q9jLyHL.jpg" ,
-        head1 : "Programming in Python 3: A Complete Introduction to the Python Language" ,
-        head2 : "Mark Summerfield's Programming in Python 3: A Complete Introduction to the Python Language" ,
-        details : "A Fully Revised Edition Featuring New Material on Coroutines, Debugging, Testing, Parsing, String Formatting, and MorePython 3 is the best version of the language yet: It is more powerful, convenient, consistent, and expressive than ever before. Now, leading Python programmer Mark Summerfield demonstrates how to write code that takes full advantage of Python 3’s features and idioms. Programming in Python 3, Second Edition, brings together all the knowledge you need to write any program, use any standard or third-party Python 3 library, and create New library modules of your own. Summerfield draws on his many years of Python experience to share deep insights into Python 3 development you won’t find anywhere else. He begins by illuminating Python’s “beautiful heart”: the eight key elements of Python you need to write robust, high-performance programs. Building on these core elements, he introduces New topics designed to strengthen your practical expertise–one concept and hands-on example at a time. Coverage includesDeveloping in Python using procedural, object-oriented, and functional Programming paradigmsCreating custom packages and modulesWriting and reading binary, text, and XML files, including optional compression, random access, and text and XML parsingLeveraging advanced data types, collections, control structures, and functionsSpreading program workloads across multiple processes and threadsProgramming SQL Databases and key—value DBM filesDebugging techniques–and using Test Driven Development to avoid bugs in the first placeUtilizing Python’s regular expression mini-language and moduleParsing techniques, including how to use the third-party Parsing and PLY modulesBuilding usable, efficient, GUI-based applicationsAdvanced Programming techniques, including generators, function and class decorators, context managers, descriptors, abstract base classes, met classes, coroutines, and moreFeaturesTable of Contents Chapter 1: Rapid Introduction to Procedural ProgrammingChapter 2: Data TypesChapter 3: Collection Data TypesChapter 4: Control Structures and FunctionsChapter 5: ModulesChapter 6: Object-Oriented ProgrammingChapter 7: File Handling Chapter 8: Advanced Programming TechniquesChapter 9: Debugging, Testing, and ProfilingChapter 10: Processes and ThreadingChapter 11: NetworkingChapter 12: Database ProgrammingChapter 13: Regular Expressions Chapter 14: Introduction to ParsingChapter 15: Introduction to GUI Programming" ,
-        price : "522" ,
-        author : "	Mark Summerfield" ,
-        whyData : "Why you should read Programming in Python 3: A Complete Introduction to the Python Language by Mark Summerfield" ,
-        whyDetails : "This book has been written by Mark Summerfield, who has written books like Programming in Python 3: A Complete Introduction to the Python Language. The books are written in Programming Languages category. This book is read by people who are interested in reading books in category : Programming Languages. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Programming in Python 3: A Complete Introduction to the Python Language" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/513SgDyJ-GL.jpg",
+    head1: "Barron's SAT Reading Workbook",
+    head2: "Brian W. Stewart M.Ed.'s Barron's SAT Reading Workbook",
+    details:
+      "Barron’s SAT Reading Workbook features exercises for all SAT Reading question types: reading comprehension; understanding words used in context; and graphical analysis. This edition features:Diagnostic test3 full-length Reading practice testsAnswers and explanations for all questionsTest-taking Tips and Vocabulary reviewExercises are divided according to three Levels of increasing difficulty and labeled from A to C. Students who can answer all level C questions are ready to excel on the actual exam.",
+    PageNos: "264",
+    price: " 729",
+    author: "	Brian W. Stewart M.Ed.",
+    whyData:
+      "Why you should read Barron's SAT Reading Workbook by Brian W. Stewart M.Ed.",
+    whyDetails:
+      "This book has been written by Brian W. Stewart M.Ed., who has written books like Barron's SAT Reading Workbook. The books are written in Language, Linguistics & Writing category. This book is read by people who are interested in reading books in category : Language, Linguistics & Writing. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Barron's SAT Reading Workbook",
+    buyNow:
+      "https://www.amazon.in/Barrons-Reading-Workbook-Brian-Stewart/dp/1438011776?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1438011776",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51IiPv7cxoL.jpg" ,
-        head1 : "Marvel Studios Character Encyclopedia" ,
-        head2 : "Adam Bray's Marvel Studios Character Encyclopedia" ,
-        details : "The essential guide to the heroes and villains of the Marvel studios moviesLearn the facts, figures, super-powers and origins of your favourite characters from the Marvel Cinematic Universe (MCU). From the Avengers and Ant-Man to Black Panther and Doctor Strange, this book spans over a decade of action-packed Marvel Studios movie releases. Filled with interesting facts and key information, whether your favourite hero is Captain America, Black Widow, Thor, the Wasp, Iron Man or Gamora, you'll be able to find out all about their story, super-powers, weapons, and much more. It isn't all heroes though; this book includes powerful villains and their followers, sinister spies, brave soldiers, and even ordinary people who find themselves caught up in epic battles!Whatever it is that you want to know, Marvel Studios: Character Encyclopedia will make you an instant Marvel Studios expert. Wondering what Thor's hammer is called*, or where Vision came from? How Iron Man builds his suits, or who Thanos is? Then this is the book for you!*Mjolnir, just in case you were wondering!© 2018 MARVEL" ,
-        price : "912" ,
-        author : "	Adam Bray" ,
-        whyData : "Why you should read Marvel Studios Character Encyclopedia by Adam Bray" ,
-        whyDetails : "This book has been written by Adam Bray, who has written books like Marvel Studios Character Encyclopedia,Marvel Studios Visual Dictionary (Dk Marvel),Marvel Studios All Your Questions Answered. The books are written in Cinema & Broadcast category. This book is read by people who are interested in reading books in category : Cinema & Broadcast. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Marvel Studios Character Encyclopedia" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51hFlyoLORL.jpg",
+    head1: "English for Everyone Teacher's Guide",
+    head2: "DK's English for Everyone Teacher's Guide",
+    details:
+      "An essential teacher's companion to an innovative and uniquely visual English-language course, this guide will help English teachers create clear, focused lesson plans, explain difficult concepts in a simple and concise way, and make Language Learning exciting, intuitive, and incredibly easy.The English for Everyone Teacher's Guide is designed to accompany English for Everyone, a comprehensive course in English as a foreign language for adults. English for Everyone combines innovative and systematic visual teaching methods with bold Design to make the English language easy to understand and learn. Key language skills, Grammar rules, and Vocabulary are reinforced with listening, speaking, reading, and writing exercises, available in print and Digital formats.The English for Everyone Teacher's Guide will help busy classroom teachers or one-on-one tutors get the most out of using English for Everyone with their students. Its step-by-step guide to the course's crystal-clear, tightly structured teaching method will show teachers how to explain even the trickiest points of English in a way that is engaging and easy to follow. It also includes a guide to English for Everyone's highly versatile exercises, which are primarily suitable for homework, independent study, or one-on-one tuition, but can readily be adapted for classroom or group activities.",
+    PageNos: "128",
+    price: "367",
+    author: "DK",
+    whyData: "Why you should read English for Everyone Teacher's Guide by DK",
+    whyDetails:
+      "This book has been written by DK, who has written books like Beginner's Step-by-Step Coding Course (Dk),Body MOT,Merriam-Webster Children's Dictionary, New Edition: Features 3,000 Photographs and Illustrations,Japanese-English Bilingual Visual Dictionary (DK Bilingual Visual Dictionary),Garden Guides: Roses (Royal Horticultural Society Garden Handbooks). The books are written in Children's & Young Adult,Healthy Living & Wellness,Language Learning,Dictionaries,Gardening category. This book is read by people who are interested in reading books in category : Children's & Young Adult. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read English for Everyone Teacher's Guide",
+    buyNow:
+      "https://www.amazon.in/English-Everyone-Teachers-Guide-DK/dp/0241335124?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=0241335124",
+  },
 
-     {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51WHPCH6-8L.jpg" ,
-        head1 : "IBPS 2019: Specialist Officers HR/Personnel Officer Scale I (Preliminary & Main) 15 Practice Sets" ,
-        head2 : "GKP's IBPS 2019: Specialist Officers HR/Personnel Officer Scale I (Preliminary & Main) 15 Practice Sets" ,
-        details : "Practice tests are a surefire way to test your preparation level and identify areas of improvement. Continuing with GKP’s mission to provide students with quality preparation material for recruitment tests conducted by IBPS, we have come up with 15 full-length practice sets for the HR/Personnel Officer Examination. All practice sets have been designed along the line of Memory based papers of the actual exams of 2015, 2016 and 2017. There are 10 practice sets for the pre exam and 5 for the main. Each question is supported with detailed answers for understanding concepts more clearly. This book will help students familiarize themselves with the exam pattern and weightage of questions." ,
-        price : "186" ,
-        author : "	GKP" ,
-        whyData : "Why you should read IBPS 2019: Specialist Officers HR/Personnel Officer Scale I (Preliminary & Main) 15 Practice Sets by GKP" ,
-        whyDetails : "This book has been written by GKP, who has written books like SBI 2020: Clerical Grade Ph I & II Junior Associates - Guide,RBI (Reserve Bank of India) 2020: Assistant - 15 Practice Sets,TRB 2019-20 : Lecturers Engineering - Electrical & Electronics Engineering,GATE 2020 : Mechanical Engineering - Solved Papers 2000-2019,Coal India Ltd. 2019-20: Management Trainee - Personnel & HR. The books are written in Bank Clerical Exams,Bank Specialist Officers Exams,Teacher Recruitment Exams,GATE,Government Exams category. This book is read by people who are interested in reading books in category : Bank Specialist Officers Exams. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read IBPS 2019: Specialist Officers HR/Personnel Officer Scale I (Preliminary & Main) 15 Practice Sets" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/41y6snGoPyL.jpg",
+    head1: "Digital in Health",
+    head2: "Hanno Wolfram's Digital in Health",
+    details:
+      "Indicating ways to improve patient-outcome was the main driver writing this book. Two years of research, structuring, collecting, and writing around the central subject of our days: digital. Similar to other spheres of our lives, digital has the power to change many aspects of healthcare and improve patient's lives. Not only tells the book about the obvious, but also points to many use-cases and innovative examples of digital in health. By definition, digital interconnects and integrates people and things. Maybe some of the Players in healthcare find the idea of working across sectors harmful to their own business model? Digital in health in any case means leaving traditional comfort zones. Besides telling about the digital past and present, the book Digital in Health defines, conveys ideas, triggers concepts, and indicates digital business models and cases already existing. In contrast to what we encounter every day, digital concepts in healthcare are lagging far behind. The rest of the world has already advanced a lot further. After technology is available, the most important prerequisite for the development of digital in health evidently is the mindset of protagonists. Digital today is far more than a buzzword, after every one of us is regularly confronted with it. Today many are already depending on digital, reaching into every corner of our life. None of our today's lives could continue to function as it is, without leveraging and using all these digital tools and applications. Digital in Health wants to help pave the way for digital ideas, supporting the constant ambition to improve patient-outcome. Joining forces for the common goal of better care, the coauthors added most relevant and important views. Each from his own professional background. Many thanks to Salil Kallianpur, Gerd Luippold, Christian Milaster, and Anup Soans who contributed so greatly to the book, while living in India, Germany, and the United States of America.",
+    PageNos: "	416",
+    price: "2001",
+    author: "	Hanno Wolfram",
+    whyData: "Why you should read Digital in Health by Hanno Wolfram",
+    whyDetails:
+      "This book has been written by Hanno Wolfram, who has written books like Digital in Health. The books are written in Health Care Delivery category. This book is read by people who are interested in reading books in category : Health Care Delivery. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData: "How long would it take for you to read Digital in Health",
+    buyNow:
+      "https://www.amazon.in/Books/b?ie=UTF8&node=976389031&_encoding=UTF8&tag=httptopicerco-21&linkCode=ur2&linkId=77911603735aeb5342b4886c70474c28&camp=3638&creative=24630",
+  },
 
-     {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41clYfBElPL.jpg" ,
-        head1 : "Yoga Therapy for Arthritis: A Whole-Person Approach to Movement and Lifestyle" ,
-        head2 : "Dr Steffany Moonaz's Yoga Therapy for Arthritis: A Whole-Person Approach to Movement and Lifestyle" ,
-        details : "Yoga therapy is commonly used for the Management of arthritis, but often focusses exclusively on adaptation of the physical poses and on structural solutions. This book moves beyond the traditional routines to present Yoga as a lifestyle designed to improve quality of life and overall well-being for individuals living with arthritis and rheumatic conditions. By incorporating the Ancient practices of Yoga as both physical and mental exercises involving a model of 5-koshas or sheaths (physical, energetic, mental/emotional, wisdom, and spiritual), the Yoga therapy practice presented here will help reduce pain and shift the perspective of the individual living with arthritis. This therapy uses a whole-person approach that employs a broad range of Tools to address the biopsychosocial effects of arthritis through the application of Yoga practices and philosophy. Useful as a guide for People living with arthritis, this book is full of inspiration for self care along with instructions for Yoga teachers and medical professionals to guide their clients using this whole-person perspective." ,
-        price : "2001" ,
-        author : "	Dr Steffany Moonaz" ,
-        whyData : " Why you should read Yoga Therapy for Arthritis: A Whole-Person Approach to Movement and Lifestyle by Dr Steffany Moonaz" ,
-        whyDetails : "This book has been written by Dr Steffany Moonaz, who has written books like Yoga Therapy for Arthritis: A Whole-Person Approach to Movement and Lifestyle. The books are written in Healthy Living & Wellness category. This book is read by people who are interested in reading books in category : Healthy Living & Wellness. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Yoga Therapy for Arthritis: A Whole-Person Approach to Movement and Lifestyle" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51gEtZL8EKL.jpg",
+    head1:
+      "The Three Stages of Initiatic Spirituality: Craftsman, Warrior, Magician",
+    head2:
+      "Angel Millar's The Three Stages of Initiatic Spirituality: Craftsman, Warrior, Magician",
+    details:
+      "A detailed guide to the three successive initiatic archetypes: Craftsman, Warrior, and Magician • Investigates the symbolism, rituals, and metaphysical aspects of each initiatic archetype, from the alchemy and shamanism of the craftsman, to the subtle energy work of the warrior, to the sex magic practices and Higher Self work of the magician • Shares meditations, practices, and transformational techniques for each archetype • Investigates the similarities between contemporary Western occultism, from Crowley to Chaos Magic, and the “positive thinking” mind Metaphysics movement Exploring the craftsman, warrior, and magician archetypes--three vocations that echo the traditional tripartite division of society--Angel Millar reveals how these archetypes represent the three successive stages of spiritual growth in an individual’s life. He shows how they provide structure for the initiatory process to develop one’s mental, physical, and spiritual potential. As craftsman, the individual experiences “mnemonic” initiation: the cultivation of Memory as well as language. As warrior, “somatic” initiation: development of the physical body and cultivation of the spirit body. And as magician, “gnostic” initiation: cultivation of the self and manifestation of the Higher Self. Investigating the metaphysical aspects of each archetype, the author explores their symbolism, spiritual practices, and rituals. Examining the craftsman archetype, he looks at metallurgy, alchemy, and the “Craft” of Freemasonry, as well as the ancient role of blacksmith as shaman. He explores the idea of God as a “Creator” or “Craftsman,” especially in relation to ancient Greek philosophy, Islamic neoplatonism, and the Kabbalah. Examining the warrior archetype, he reveals how the way of the warrior was affected by Religion and mysticism, such as how the Persian martial art of Zoorkhaneh was profoundly shaped by Sufism and why the Buddhist Shaolin temple became synonymous with Kung Fu. The author places special emphasis on the cultivation of subtle energy as practiced in martial arts, especially in relation to Taoist inner alchemy. Examining the magician archetype, he reveals how each individual has two “selves”--a lower self and a Higher Self--and explores the union of opposites studied by the magician, such as in the tantric arts and sacred sex magic. Sharing meditations, practices, and processes associated with each archetype, as well as techniques for transforming one’s consciousness, he also investigates similarities between contemporary Western occultism, from Crowley to Chaos Magic, and the “positive thinking” mind Metaphysics movement. Structured to parallel the three archetypal stages of the initiatic process, this comprehensive guide offers a literary initiation through three degrees of esoteric knowledge.",
+    PageNos: "	256",
+    price: "1076",
+    author: "	Angel Millar",
+    whyData:
+      "Why you should read The Three Stages of Initiatic Spirituality: Craftsman, Warrior, Magician by Angel Millar",
+    whyDetails:
+      "This book has been written by Angel Millar, who has written books like The Three Stages of Initiatic Spirituality: Craftsman, Warrior, Magician. The books are written in Mind, Body & Spirit category. This book is read by people who are interested in reading books in category : Mind, Body & Spirit. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read The Three Stages of Initiatic Spirituality: Craftsman, Warrior, Magician",
+    buyNow:
+      "https://www.amazon.in/Three-Stages-Initiatic-Spirituality-Craftsman/dp/1620559323?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1620559323",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/418me3LZnIL.jpg" ,
-        head1 : "Mastering PostgreSQL 11: Expert techniques to build scalable, reliable, and fault-tolerant database applications, 2nd Edition" ,
-        head2 : "Hans-Jurgen Schonig's Mastering PostgreSQL 11: Expert techniques to build scalable, reliable, and fault-tolerant database applications, 2nd Edition" ,
-        details : "Master the capabilities of PostgreSQL 11 to efficiently manage and maintain your database Key Features Master advanced concepts of PostgreSQL 11 with real-world datasets and examples Explore query parallelism, data replication, and database performance while working with larger datasets Extend the functionalities of your PostgreSQL instance to suit your organization's needs with minimal effort Book DescriptionThis second edition of Mastering PostgreSQL 11 helps you build Dynamic database solutions for enterprise applications using the latest release of PostgreSQL, which enables database analysts to Design both the physical and technical aspects of the system Architecture with ease. This book begins with an introduction to the newly released features in PostgreSQL 11 to help you build efficient and fault-tolerant PostgreSQL applications. You'll examine all of the advanced aspects of PostgreSQL in detail, including logical replication, database clusters, performance tuning, monitoring, and user management. You will also Work with the PostgreSQL optimizer, configuring PostgreSQL for high speed, and see how to move from Oracle to PostgreSQL. As you progress through the chapters, you will cover transactions, locking, indexes, and optimizing queries to improve performance. Additionally, you'll learn to manage network Security and explore backups and replications, while understanding the useful extensions of PostgreSQL so that you can optimize the speed and performance of large databases. By the end of this book, you will be able to use your database to its utmost capacity by implementing advanced administrative tasks with ease. What you will learn Get to grips with advanced PostgreSQL 11 features and SQL functions Make use of the indexing features in PostgreSQL and fine-tune the performance of your queries Work with stored procedures and manage backup and recovery Master replication and failover techniques Troubleshoot your PostgreSQL instance for solutions to common and not-so-common problems Perform database migration from MySQL and Oracle to PostgreSQL with ease Who this book is forThis book is for data and database professionals wanting to implement advanced functionalities and master complex administrative tasks with PostgreSQL 11. Prior experience of database Administration with PostgreSQL database will aid in understanding the concepts covered in this book." ,
-        price : "938" ,
-        author : "	Hans-Jurgen Schonig" ,
-        whyData : "Why you should read Mastering PostgreSQL 11: Expert techniques to build scalable, reliable, and fault-tolerant database applications, 2nd Edition by Hans-Jurgen Schonig" ,
-        whyDetails : "This book has been written by Hans-Jurgen Schonig, who has written books like Mastering PostgreSQL 12: Advanced techniques to build and administer scalable and reliable PostgreSQL database applications, 3rd Edition,Mastering PostgreSQL 11: Expert techniques to build scalable, reliable, and fault-tolerant database applications, 2nd Edition. The books are written in Computer Science,Databases category. This book is read by people who are interested in reading books in category : Databases. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Mastering PostgreSQL 11: Expert techniques to build scalable, reliable, and fault-tolerant database applications, 2nd Edition" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51WcqTwZmYL.jpg",
+    head1: "30 Years' Chapterwise Solutions CBSE AIPMT & NEET Biology Hindi",
+    head2: "",
+    details: "30 Years' Chapterwise Solutions CBSE AIPMT & NEET Biology Hindi",
+    PageNos: "424",
+    price: "226",
+    author: "Arihant Experts",
+    whyData:
+      "Why you should read 30 Years' Chapterwise Solutions CBSE AIPMT & NEET Biology Hindi by Arihant Experts",
+    whyDetails:
+      "This book has been written by Arihant Experts, who has written books like NSQF (Level 5) Handbook Mechanic Motor Vehicle Addhayvar II Year,CTET & TETs Purva Varsho Ke Hal Prashan Patre Sampuran Vayakha Sahit (2020 - 2011 ) Samajik Vigyan Ayum Addhyan (Class 6-8) 2020,CTET Success Master Paper-I Class 1 to 5 Shikshak Ke Liye 2020,CTET Success Master Maths & Science Paper-2 for Class 6 to 8 2020,Bank PO Solved Papers Reasoning 2020. The books are written in Polytechnics & ITI,Teacher Recruitment Exams,Bank PO & MT Exams category. This book is read by people who are interested in reading books in category : AIIMS & NEET. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read 30 Years' Chapterwise Solutions CBSE AIPMT & NEET Biology Hindi   ",
+    buyNow:
+      "https://www.amazon.in/Years-Chapterwise-Solutions-AIPMT-Biology/dp/9313169193?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9313169193",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/410qlHBzkML.jpg" ,
-        head1 : "Consciousness: A Ladybird Expert Book (Ladybird Expert Series)" ,
-        head2 : "Hannah Critchlow's Consciousness: A Ladybird Expert Book (Ladybird Expert Series)" ,
-        details : "Part of the new Ladybird Expert series, Consciousness is a clear, simple and Entertaining introduction to one of life's most interesting questions: what does it mean to be conscious? Written by celebrated neurologist and neuropsychologist Dr Hannah Critchlow, Consciousness will take you on a voyage to discover what allows the grey matter in our skulls to produce such complex emotions, personality traits, thoughts and memories. Written by the leading lights and most outstanding communicators in their fields, the Ladybird Expert Books provide clear, accessible and authoritative introductions to subjects drawn from science, History and culture. For an Adult readership, the Ladybird Expert series is produced in the same iconic small hardback format pioneered by the original Ladybirds. Each beautifully illustrated book features the first new illustrations produced in the original Ladybird style for nearly forty years." ,
-        price : "493" ,
-        author : "	Hannah Critchlow" ,
-        whyData : "Why you should read Consciousness: A Ladybird Expert Book (Ladybird Expert Series) by Hannah Critchlow" ,
-        whyDetails : "This book has been written by Hannah Critchlow, who has written books like The Science of Fate: Why Your Future is More Predictable Than You Think,Consciousness: A Ladybird Expert Book (Ladybird Expert Series). The books are written in Biology & Life Sciences category. This book is read by people who are interested in reading books in category : Biology & Life Sciences. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Consciousness: A Ladybird Expert Book (Ladybird Expert Series)" ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/519pVgz%2BWjL.jpg",
+    head1:
+      "Social Psychiatry Principles & Clinical Perspectives (Indian Psychiatric Society Publication)",
+    head2:
+      "Rakesh K Chadda's Social Psychiatry Principles & Clinical Perspectives (Indian Psychiatric Society Publication)",
+    details:
+      " Compendium on various psychosocial aspects related to Psychiatry.• Covers both theoretical and Clinical aspects related to psychosocial assessment and management; including aspects related to various illnesses.• Attempts to be comprehensive in coverage and understanding conceptually and geographically.• Thrust is on psychosocial Issues pertinent to developing world; particularly Indian Society and culture.• Contributions from authors across different continents (Europe, USA, Asia); academicians and practicing psychiatrists alike.• Strengths: Comprehensive; easy to read; avoidance of too much technical language; authors of different Professional backgrounds; covering recent psychosocial phenomena.• Clinicians, researchers, academicians and policy makers are likely to be benefited.• Useful for varied mental Health professionals, including psychiatrists, psychologists, mental Health nurses, Psychiatric social workers, and anyone else who is interested in the field of social psychiatry.",
+    PageNos: "556",
+    price: "935",
+    author: "	Rakesh K Chadda",
+    whyData:
+      "Why you should read Social Psychiatry Principles & Clinical Perspectives (Indian Psychiatric Society Publication) by Rakesh K Chadda",
+    whyDetails:
+      "This book has been written by Rakesh K Chadda, who has written books like Social Psychiatry Principles & Clinical Perspectives (Indian Psychiatric Society Publication). The books are written in Psychiatry category. This book is read by people who are interested in reading books in category : Psychiatry. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Social Psychiatry Principles & Clinical Perspectives (Indian Psychiatric Society Publication)",
+    buyNow:
+      "https://www.amazon.in/Psychiatry-Principles-Perspectives-Psychiatric-Publication/dp/9352704223?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9352704223",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41mRNfqSO5L.jpg" ,
-        head1 : "Human: Solving the global workforce crisis in healthcare" ,
-        head2 : "Mark Britnell's Human: Solving the global workforce crisis in healthcare" ,
-        details : "By 2030, the World will be short of approximately 15 million Health workers - a fifth of the workforce needed to keep Healthcare Systems going. Global Healthcare leader and award-winning author, Dr Mark Britnell, uses his unique insights from advising governments, executives, and clinicians in more than 70 countries, to present solutions to this impending crisis. Human: Solving the Global Workforce Crisis in Healthcare, calls for a reframing of the global debate about Health and national wealth, and invites us to deal with this problem in new and adaptive ways that drive economic and human prosperity. Harnessing technology, it asks us to reimagine new Models of care and Levels of workforce agility. Drawing on experiences ranging from the world's most advanced hospitals to Revolutionary new approaches in India and Africa, Dr Mark Britnell makes it clear what works - and what does not. Short and concise, this book gives a truly global perspective on the fundamental workforce Issues facing Health Systems today." ,
-        price : "1010" ,
-        author : "	Mark Britnell" ,
-        whyData : "Why you should read Human: Solving the global workforce crisis in healthcare by Mark Britnell" ,
-        whyDetails : "This book has been written by Mark Britnell, who has written books like Human: Solving the global workforce crisis in healthcare,In Search of the Perfect Health System. The books are written in Health Care Delivery,Healthy Living & Wellness category. This book is read by people who are interested in reading books in category : Health Care Delivery. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Human: Solving the global workforce crisis in healthcare" ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/31o%2Bh-S2yuL.jpg",
+    head1: "CBSE Maematics Chapterwise Solved Paper Class 12 2019-20",
+    head2:
+      "Arihant Experts's CBSE Maematics Chapterwise Solved Paper Class 12 2019-20",
+    details:
+      "An editorial team of highly skilled professionals at Arihant, works hand in Glove to ensure that the students receive the best and accurate content through our Books. From inception till the book comes out from print, the whole team comprising of authors, editors, proof-readers and various other involved in shaping the book put in their best efforts, knowledge and experience to produce the rigorous content The students receive. Keeping in mind the specific requirements of the students and various examinations, The carefully designed exam oriented and exam ready content comes out only after intensive research and analysis. The experts have adopted whole new style of presenting the content which is easily understandable, leaving behind the old traditional methods which once used to be the most effective. They have been developing the latest content & updates as per the needs and requirements of the students making our Books A hallmark for quality and reliability for the past 15 years.",
+    PageNos: "481",
+    price: "154",
+    author: "	Arihant Experts",
+    whyData:
+      "Why you should read CBSE Maematics Chapterwise Solved Paper Class 12 2019-20 by Arihant Experts",
+    whyDetails:
+      "This book has been written by Arihant Experts, who has written books like NSQF (Level 5) Handbook Mechanic Motor Vehicle Addhayvar II Year,CTET & TETs Purva Varsho Ke Hal Prashan Patre Sampuran Vayakha Sahit (2020 - 2011 ) Samajik Vigyan Ayum Addhyan (Class 6-8) 2020,CTET Success Master Paper-I Class 1 to 5 Shikshak Ke Liye 2020,CTET Success Master Maths & Science Paper-2 for Class 6 to 8 2020,Bank PO Solved Papers Reasoning 2020. The books are written in Polytechnics & ITI,Teacher Recruitment Exams,Bank PO & MT Exams category. This book is read by people who are interested in reading books in category : CBSE. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read CBSE Maematics Chapterwise Solved Paper Class 12 2019-20",
+    buyNow:
+      "https://www.amazon.in/Maematics-Chapterwise-Solved-Paper-2019-20/dp/9313196565?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9313196565",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/410qlHBzkML.jpg" ,
-        head1 : "Consciousness: A Ladybird Expert Book (Ladybird Expert Series)" ,
-        head2 : " Hannah Critchlow's Consciousness: A Ladybird Expert Book (Ladybird Expert Series) " ,
-        details : " Part of the new Ladybird Expert series, Consciousness is a clear, simple and Entertaining introduction to one of life's most interesting questions: what does it mean to be conscious? Written by celebrated neurologist and neuropsychologist Dr Hannah Critchlow, Consciousness will take you on a voyage to discover what allows the grey matter in our skulls to produce such complex emotions, personality traits, thoughts and memories. Written by the leading lights and most outstanding communicators in their fields, the Ladybird Expert Books provide clear, accessible and authoritative introductions to subjects drawn from science, History and culture. For an Adult readership, the Ladybird Expert series is produced in the same iconic small hardback format pioneered by the original Ladybirds. Each beautifully illustrated book features the first new illustrations produced in the original Ladybird style for nearly forty years." ,
-        price : " 493" ,
-        author : "	Hannah Critchlow " ,
-        whyData : " Why you should read Consciousness: A Ladybird Expert Book (Ladybird Expert Series) by Hannah Critchlow " ,
-        whyDetails : " This book has been written by Hannah Critchlow, who has written books like The Science of Fate: Why Your Future is More Predictable Than You Think,Consciousness: A Ladybird Expert Book (Ladybird Expert Series). The books are written in Biology & Life Sciences category. This book is read by people who are interested in reading books in category : Biology & Life Sciences. So, if you want to explore books similar to This book, you must read and buy this book. " ,
-        howData : " How long would it take for you to read Consciousness: A Ladybird Expert Book (Ladybird Expert Series) " ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/61qn%2BsVmJ6L.jpg",
+    head1:
+      "Padhuka's Students Handbook on Advanced Accounting Group II: for CA IPCC Old Syllabus",
+    head2:
+      "G. Sekar's Padhuka's Students Handbook on Advanced Accounting Group II: for CA IPCC Old Syllabus",
+    details:
+      "Full Syllabus Coverage in student-friendly format. Companies Act, 2013 Relevant Provisions updated. All Relevant Accounting Standards included. Step-by-Step Solutions and Working Notes for Practical Question Formats, Tables and Charts for easy understanding. Single Handy Tool for Exams and Practical learning.",
+    PageNos: "",
+    price: "831",
+    author: "G. Sekar",
+    whyData:
+      "Why you should read Padhuka's Students Handbook on Advanced Accounting Group II: for CA IPCC Old Syllabus by G. Sekar",
+    whyDetails:
+      "This book has been written by G. Sekar, who has written books like Padhuka's Business Economics & Business And Commercial Knowledge: CA Foundation -for May 2019 Exams and onwards,Padhuka’s Mercantile Law Guide: For CA CPT,MCQ Bank for CA Intermediate,Padhuka's Students' Handbook On Advanced Accounting: CA IPCC - Group II (Old Syllabus)- for May 2019 Exams and onwards,Padhuka's Students Referencer On Indirect Taxes: CA final Old & New Syllabus- for May 2019 Exams and onwards. The books are written in Tax Law,CA,Business & Finance category. This book is read by people who are interested in reading books in category : Business Law. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData: "",
+    buyNow:
+      "https://www.amazon.in/Padhukas-Students-Handbook-Advanced-Accounting/dp/9387963098?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9387963098",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51JCsDuFFYL.jpg" ,
-        head1 : "Haunted by Chaos: China’s Grand Strategy from Mao Zedong to Xi Jinping" ,
-        head2 : "Sulmaan Wasif Khan's Haunted by Chaos: China’s Grand Strategy from Mao Zedong to Xi Jinping" ,
-        details : "Before the Chinese communist party came to power, China lay broken and fragmented. Today it is a force on the global stage and yet its leaders have continued to be haunted by the past. Drawing on an array of sources, Sulmaan Wasif khan chronicles the grand strategies that have sought not only to protect china from aggression but also to ensure it would never again experience the powerlessness of the late Qing and republican eras.The dramatic variations in China’s modern History have obscured the commonality of purpose that binds the country’s leaders. Analysing the Calculus behind their decision making, Khan explores how they wove diplomatic, Military and economic power together to keep a fragile country safe in a World they saw as hostile. Dangerous and shrewd, Mao Zedong made China whole and succeeded in keeping it so, while the caustic, impatient Deng Xiaoping dragged China into the modern world. Jiang Zemin and Hu Jintao served as cautious custodians of the Deng legacy, but the powerful and deeply insecure Xi Jinping has shown an assertiveness that has raised both fear and hope across the globe.For all their considerable costs, China’s grand strategies have been largely successful. But the country faces great challenges today. Its population is aging, its Government is undermined by corruption, its neighbours are arming out of concern over its growing power and environmental degradation threatens catastrophe. A question haunted by chaos raises is whether China’s time-tested approach can respond to the looming threats of the twenty-first century." ,
-        price : "475" ,
-        author : "	Sulmaan Wasif Khan " ,
-        whyData : "Why you should read Haunted by Chaos: China’s Grand Strategy from Mao Zedong to Xi Jinping by Sulmaan Wasif Khan" ,
-        whyDetails : "This book has been written by Sulmaan Wasif Khan, who has written books like Haunted by Chaos: China’s Grand Strategy from Mao Zedong to Xi Jinping. The books are written in Government category. This book is read by people who are interested in reading books in category : Government. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51CjPpOvm9L.jpg",
+    head1:
+      "The Mueller Report: The Final Report of the Special Counsel into Donald Trump, Russia, and Collusion",
+    head2:
+      "Robert S. Mueller III's The Mueller Report: The Final Report of the Special Counsel into Donald Trump, Russia, and Collusion",
+    details:
+      "NOW A NEW YORK TIMES, WASHINGTON POST, WALL STREET JOURNAL, USA TODAY, AND PUBLISHERS WEEKLY BESTSELLER.There has never been a more important political investigation than Robert S. Mueller III's into President Donald Trump's possible collusion with Russia. His momentous findings can be found here, complete with:The 300+ pages of the historic report, as released by the Justice DepartmentAn introduction by constitutional scholar, eminent civil libertarian, and New York Times bestselling author Alan Dershowitz.The relevant portions of Title 28 of the Code of Federal Regulations, the 1999 provisions written by former acting Solicitor General Neal Katyal, which establish and regulate the powers of the special counsel.Rod Rosenstein’s 2016 order appointing Robert Mueller III as special counsel and outlining the scope of his investigation.Attorney General William Barr’s four-page summary of the report, as sent to Congress.Barr's explanation of the four reasons for redacting the report, and a key for identifying them in the color-coded reportThe wait is over. Robert Mueller, a lifelong Republican, has concluded his investigation and submitted its findings to Attorney General William Barr. Barr has told Congress that Mueller found no proof of collusion between the Trump campaign and Russia, and did not come to a conclusion on obstruction of justice—neither concluding the president committed a crime nor exonerating him. But Mueller’s report was over 300 pages and Barr’s summary was only four pages, raising questions about the conclusions of a historic investigation. Special Counsel Robert Mueller III’s probe into Russian influence on the 2016 election of Donald Trump—including links between the campaign and Russian Interests, obstruction of justice by President Trump, and any other matters that may have arisen in the course of the investigation—has been the focal point of American Politics since its inception in May 2017.  Democrats in the US House of Representatives hoped to use the report to begin impeachment proceedings, with the support of those critical of the president. Media tracked Mueller’s every move, and the investigation was subject to constant speculation by political pundits everywhere. It resulted in the indictments of Michael Flynn, Paul Manafort, Roger Stone, and many others. President Trump and his supporters affirmed that the investigation was a “witch hunt” and the product of a plot by the political establishment—the “deep state”—to delegitimize his presidency. Mueller’s findings—at least according to Barr—allowed the latter to claim victory. But now, thanks to a subpoena from House Judiciary Committee chairman Jerry Nadler for the full report, a resolution from the House of Representatives to release the full report to the public (though blocked in the Senate by Mitch McConnell), and popular demand, it’s time for public to judge if that is true. The Mueller investigation will join Watergate, and the Mueller Report will join the 9/11 Commission Report, the Warren Report, and the Starr Report, as one of the most important in history. The Mueller Report is required reading for everyone with Interest in American Politics, for every 2016 and 2020 voter, and every American. It’s now available here as an affordable paperback, featuring an introduction from eminent civil libertarian, Harvard Law Professor Emeritus, and New York Times bestselling author Alan Dershowitz, who provides a constitutional, civil Law-based commentary sorely needed in today’s media landscape.",
+    PageNos: "480",
+    price: "629",
+    author: "	Robert S. Mueller III",
+    whyData:
+      "Why you should read The Mueller Report: The Final Report of the Special Counsel into Donald Trump, Russia, and Collusion by Robert S. Mueller III",
+    whyDetails:
+      "This book has been written by Robert S. Mueller III, who has written books like The Mueller Report: The Final Report of the Special Counsel into Donald Trump, Russia, and Collusion,The Mueller Report: Report on the Investigation into Russian Interference in the 2016 Presidential Election. The books are written in True Accounts category. This book is read by people who are interested in reading books in category : True Accounts. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read The Mueller Report: The Final Report of the Special Counsel into Donald Trump, Russia, and Collusion",
+    buyNow:
+      "https://www.amazon.in/Mueller-Report-Special-Counsel-Collusion/dp/1510750169?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1510750169",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51E6orTVBtL.jpg" ,
-        head1 : "Experience, Caste, and the Everyday Social" ,
-        head2 : "Gopal Guru's Experience, Caste, and the Everyday Social",
-        details : "Experience, caste, and the everyday social offers a sustained argument that the social is experienced in various ways, through the senses as well as through conceptualizations such as self, time, and friendship. By looking at the experiences of everyday life In societies like India, It attempts to understand how different socialities are formed and sustained. It offers new insights on themes such as the ontology of the social, the way the social is experienced, the nature of social that operates in the world as invisible authority, along with the creation of notions such as social self and social time. Endorsing the concept of ‘Maitri’, signifying ethical relationship among multiple social entities, the book offers a distinct Theory of the social supported by ample empirical observations.Experience, caste, and the everyday social offers a sustained argument that the social is experienced in various ways, through the senses as well as through conceptualizations such as self, time, and friendship. By looking at the experiences of everyday life In societies like India, It attempts to understand how different socialities are formed and sustained. It offers new insights on themes such as the ontology of the social, the way the social is experienced, the nature of social that operates in the world as invisible authority, along with the creation of notions such as social self and social time. Endorsing the concept of ‘Maitri’, signifying ethical relationship among multiple social entities, the book offers a distinct Theory of the social supported by ample empirical observations." ,
-        price : "849" ,
-        author : "	Gopal Guru" ,
-        whyData : " Why you should read Experience, Caste, and the Everyday Social by Gopal Guru" ,
-        whyDetails : " This book has been written by Gopal Guru, who has written books like Humiliation: Claims and Context,Experience, Caste, and the Everyday Social,Varchasva Ani Samajik Chikitsa,The Cracked Mirror: An Indian Debate on Experience and Theory. The books are written in Political Theory,Language, Linguistics & Writing,Social Welfare & Social Services,Public Administration category. This book is read by people who are interested in reading books in category : Language, Linguistics & Writing. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Experience, Caste, and the Everyday Social" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/41rM457CJrL.jpg",
+    head1: "India's Decade of Reforms: Reserve Bank of India at Central Stage",
+    head2:
+      "M G Warrier's India's Decade of Reforms: Reserve Bank of India at Central Stage",
+    details:
+      "India's Decade of Reforms: Reserve Bank of India at Central Stage looks at the initiatives taken by the Government of India and the RBI to restore the country's economic Health by introducing economic and Financial sector reforms. Since 2014, the GOI and the RBI have come together to create reform initiatives to revamp the institutional system in the Financial sector by infusing transparency and professionalism in policy formulation. The book dispassionately analyses the recent coming together of GOI and RBI to ensure continuity in policy formulation and the RBI's role in demonetization. Also explored is the RBI's role in managing monetary policy to the nation's advantage and introducing necessary structural changes.",
+    PageNos: "258",
+    price: "339",
+    author: "	M G Warrier",
+    whyData:
+      "Why you should read India's Decade of Reforms: Reserve Bank of India at Central Stage by M G Warrier",
+    whyDetails:
+      "This book has been written by M G Warrier, who has written books like India's Decade of Reforms: Reserve Bank of India at Central Stage. The books are written in Banks & Banking category. This book is read by people who are interested in reading books in category : Banks & Banking. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read India's Decade of Reforms: Reserve Bank of India at Central Stage",
+    buyNow:
+      "https://www.amazon.in/Indias-Decade-Reforms-Reserve-Central/dp/1642491438?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1642491438",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51xvXNm7XqL.jpg" ,
-        head1 : "Sincerity" ,
-        head2 : "Carol Ann Duffy's Sincerity" ,
-        details : "Her final collection as Poet Laureate, a frank, disarming and deeply moving exploration of loss and remembrance in their many forms. Presented in a beautiful, foiled package, this will be the Poetry book of the year." ,
-        price : "334" ,
-        author : "	Carol Ann Duffy" ,
-        whyData : "Why you should read Sincerity by Carol Ann Duffy" ,
-        whyDetails : "This book has been written by Carol Ann Duffy, who has written books like Sincerity,Collected Poems,Jubilee Lines,New Selected Poems: 1984 - 2004,Mrs Scrooge: A Christmas Tale. The books are written in Poetry,Books category. This book is read by people who are interested in reading books in category : Poetry. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Sincerity" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51R0d9u-XeL.jpg",
+    head1: "SAP S/4HANA Embedded Analytics: The Comprehensive Guide",
+    head2:
+      "Jurgen Butsmann's SAP S/4HANA Embedded Analytics: The Comprehensive Guide",
+    details:
+      "See how SAP S/4HANA will change your BI processes. Explore the embedded analytics Architecture and data model to learn how to preform analytics on live transactional data. Business user? Walk step by step through SAP Smart Business KPIs and multidimensional reporting. Analytics specialist? Master the virtual data model and creating KPIs. Jack of all trades? Create CDS views, apply custom fields and logic, or see what's coming up with machine learning. This is your complete guide to SAP S/4HANA embedded analytics. Highlights include: - Virtual data model (VDM) - SAP Fiori apps - SAP Smart Business - Key performance Indicators (KPIs) - Operational Reporting - CDS views - Customization - Data warehousing - Integration. With this book, you will be able to: - Configure SAP S/4HANA embedded analytics for your landscape. - Use embedded analytics for operational reporting and process analytics. - Integrate with other SAP Tools for data warehousing, Business intelligence and predictive analytics.",
+    PageNos: "430",
+    price: "3646",
+    author: "Jurgen Butsmann",
+    whyData:
+      "Why you should read SAP S/4HANA Embedded Analytics: The Comprehensive Guide by Jurgen Butsmann",
+    whyDetails:
+      "This book has been written by Jurgen Butsmann, who has written books like SAP S/4HANA Embedded Analytics: The Comprehensive Guide. The books are written in Business, Strategy & Management category. This book is read by people who are interested in reading books in category : Business, Strategy & Management. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read SAP S/4HANA Embedded Analytics: The Comprehensive Guide",
+    buyNow:
+      "https://www.amazon.in/SAP-4HANA-Embedded-Analytics-Comprehensive/dp/149321733X?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=149321733X",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/5158u2YOnyL.jpg" ,
-        head1 : "Lonely Planet Rajasthan, Delhi & Agra (Travel Guide)" ,
-        head2 : "Lonely Planet's Lonely Planet Rajasthan, Delhi & Agra (Travel Guide)" ,
-        details : "Lonely Planet Rajasthan, Delhi and Agra is your passport to the most relevant, up-to-date Advice on what to see and skip and what hidden discoveries await you. Lose yourself in the maze-like bazaars of Old Delhi, watch the sunset at the Taj Mahal, or search for tigers in Ranthambhore National Park; all with your trusted Travel companion. Get to the heart of Rajasthan, Delhi and Agra and begin your journey now!Inside Lonely Planet Rajasthan, Delhi and Agra Travel Guide:Colour Maps and images throughoutHighlights and itineraries help you tailor your trip to your Personal needs and interestsInsider Tips to save Time and money and get around like a local, avoiding crowds and trouble spotsEssential info at your fingertips - hours of operation, phone numbers, websites, transit tips, pricesHonest reviews for all budgets - eating, sleeping, sight-seeing, going out, shopping, hidden gems that most guidebooks missCultural insights give you a richer, more rewarding Travel experience - history, religion, cuisine, architecture, Arts and crafts, wildlife, environment, culture, festivalsFree, convenient pull-out Delhi map (included in print version), plus over 30 mapsCovers Delhi, Greater Delhi, Jaisalmer, Pushkar, Jodhpur, Udaipur, Jaipur, Bundi, Shekhawati, Agra, Fatehpur Sikri and moreThe Perfect Choice: Lonely Planet Rajasthan, Delhi and Agra, our most comprehensive guide to Rajasthan, Delhi and Agra, is perfect for both exploring top sights and taking roads less Travelled.Looking for more extensive coverage? Check out Lonely Planet India guide for a comprehensive look at all the country has to offer; or Best of India, a photo-rich guide to the country's most popular attractions." ,
-        price : "796" ,
-        author : "Lonely Planet" ,
-        whyData : "Why you should read Lonely Planet Rajasthan, Delhi & Agra (Travel Guide) by Lonely Planet" ,
-        whyDetails : "This book has been written by Lonely Planet, who has written books like Lonely Planet Pocket Warsaw,Lonely Planet Mauritius, Reunion & Seychelles (Travel Guide),Lonely Planet Best of Canada (Travel Guide),Lonely Planet Portugal (Travel Guide),Lonely Planet Nicaragua (Travel Guide). The books are written in Travel & Holiday Guides,Surfing, Windsurfing & Water Skiing category. This book is read by people who are interested in reading books in category : Travel & Holiday Guides. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Lonely Planet Rajasthan, Delhi & Agra (Travel Guide)" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/41z3N0NbnfL.jpg",
+    head1: "Handbook of Physics",
+    head2: "Arihant Experts's Handbook of Physics",
+    details:
+      "An editorial team of highly skilled professionals at Arihant, works hand in Glove to ensure that the students receive the best and accurate content through our books. From inception till the book comes out from print, the whole team comprising of authors,.",
+    PageNos: "451",
+    price: "127",
+    author: "Arihant Experts",
+    whyData: "Why you should read Handbook of Physics by Arihant Experts",
+    whyDetails:
+      "This book has been written by Arihant Experts, who has written books like NSQF (Level 5) Handbook Mechanic Motor Vehicle Addhayvar II Year,CTET & TETs Purva Varsho Ke Hal Prashan Patre Sampuran Vayakha Sahit (2020 - 2011 ) Samajik Vigyan Ayum Addhyan (Class 6-8) 2020,CTET Success Master Paper-I Class 1 to 5 Shikshak Ke Liye 2020,CTET Success Master Maths & Science Paper-2 for Class 6 to 8 2020,Bank PO Solved Papers Reasoning 2020. The books are written in Polytechnics & ITI,Teacher Recruitment Exams,Bank PO & MT Exams category. This book is read by people who are interested in reading books in category : Encyclopaedias & Reference Works. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData: "How long would it take for you to read Handbook of Physics",
+    buyNow:
+      "https://www.amazon.in/Handbook-Physics-Arihant-Experts/dp/9313196484?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9313196484",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51PnkncLJML.jpg" ,
-        head1 : "World Cup 2018: The Ultimate Guide for Armchair Fans" ,
-        head2 : "Lloyd Pettiford's World Cup 2018: The Ultimate Guide for Armchair Fans" ,
-        details : "YOUR COMPLETE GUIDE TO THE WORLD CUP 2018! This book makes a convincing case for not travelling to Russia for the World Cup, but rather staying at Home and reading all about it. It dissects the qualifying campaign and groups, and also has a History of the World Cup with some surprising facts. Then there's a complete list of Fixtures which has already printed England in the final to save you a bit of time. It even looks forward to Qatar 2022 and suggests it might not be so bad after all. Written by the Football enthusiasts who brought you The Premier League : 25 Years and Euro 2016, it has enough facts to inform, enough laughs to impress even Sir Alex, and the answers to many questions, some of which you may even want to know the answers to, including: Why do Germany wear 4 stars on their Shirts even though a country of that name has only won the World Cup once? Is Eduard Streltsov the best Footballer you've never heard of? What naughty thing will Suarez do this time? Which team has the best kit? Which team went out at the last 16 stage of the last 5 consecutive World Cups? So settle back and enjoy the ultimate guide to the World Cup 2018 - perfect for every Football fan!" ,
-        price : "401" ,
-        author : "	Lloyd Pettiford" ,
-        whyData : "Why you should read World Cup 2018: The Ultimate Guide for Armchair Fans by Lloyd Pettiford" ,
-        whyDetails : "This book has been written by Lloyd Pettiford, who has written books like World Cup 2018: The Ultimate Guide for Armchair Fans. The books are written in Soccer category. This book is read by people who are interested in reading books in category : Soccer. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read World Cup 2018: The Ultimate Guide for Armchair Fans" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51qa-ZaIvRL.jpg",
+    head1:
+      "The Indian Empire At War: From Jihad to Victory, The Untold Story of the Indian Army in the First World War",
+    head2:
+      "George Morton-Jack's The Indian Empire At War: From Jihad to Victory, The Untold Story of the Indian Army in the First World War",
+    details:
+      "A brilliantly original History of the First World War, re-tracing the footsteps of the Indian Army's 1.5 million Men who in 1914-18 served about the globe from Europe to Africa, Asia and the Indian Ocean. After years of neglect, The Indian Empire at War raises the curtain on the Indian soldiers' Personal experiences fighting for the Allies against the Central Powers, and returning Home to play their part in the Indian Independence movement.",
+    PageNos: "592",
+    price: "430",
+    author: "George Morton-Jack",
+    whyData:
+      "Why you should read The Indian Empire At War: From Jihad to Victory, The Untold Story of the Indian Army in the First World War by George Morton-Jack",
+    whyDetails:
+      "This book has been written by George Morton-Jack, who has written books like The Indian Empire At War: From Jihad to Victory, The Untold Story of the Indian Army in the First World War. The books are written in True Accounts category. This book is read by people who are interested in reading books in category : True Accounts. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read The Indian Empire At War: From Jihad to Victory, The Untold Story of the Indian Army in the First World War",
+    buyNow:
+      "https://www.amazon.in/Indian-Empire-At-War-Victory/dp/1408707705?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1408707705",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51kVPmiA9yL.jpg" ,
-        head1 : "Creations FunTools Moulds For Clay & Dough 11 Pcs, 10 Small Moulds & 1 Roller." ,
-        head2 : "" ,
-        details : "Creations FunTools Moulds For Clay & Dough 11 Pcs, 10 Small Moulds & 1 Roller." ,
-        price : "127" ,
-        author : "" ,
-        whyData : "" ,
-        whyDetails : "" ,
-        howData : "" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51MLH6Yz4KL.jpg",
+    head1:
+      "Creative Adventures in Cursive: Write with glue, string, markers, paint, and icing!",
+    head2:
+      "Rachelle Doorley's Creative Adventures in Cursive: Write with glue, string, markers, paint, and icing!",
+    details:
+      "Writing is cooler in cursive, and Creative Adventures in Cursive gives kids ideas for practicing writing skills, then guides them into cursive creativity. As many educators will attest, writing in cursive provides cognitive benefits in spelling, memory, reading comprehension, language skills, and overall academic confidence. Practicing cursive carries similar benefits when drawing; once you learn the Basic shapes, you can play with it by creating your own Personal style. In Creative Adventures in Cursive, noted author Rachelle Doorley, the creative force behind Tinkerlab, shows twenty fun and colorful ways to use script to make posters, present school projects, design monograms, create greeting cards, decorate book Bags and t-shirts, ice cookies and cakes -- writing in script with everything, including Fabric markers, pastry tubes, string and yarn, and of course brushes, pens, and crayons.",
+    PageNos: "112",
+    price: "961",
+    author: "	Rachelle Doorley",
+    whyData:
+      "Why you should read Creative Adventures in Cursive: Write with glue, string, markers, paint, and icing! by Rachelle Doorley",
+    whyDetails:
+      "This book has been written by Rachelle Doorley, who has written books like Creative Adventures in Cursive: Write with glue, string, markers, paint, and icing!. The books are written in Crafts, Hobbies & Practical Interests category. This book is read by people who are interested in reading books in category : Crafts, Hobbies & Practical Interests. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Creative Adventures in Cursive: Write with glue, string, markers, paint, and icing!",
+    buyNow:
+      "https://www.amazon.in/Creative-Adventures-Cursive-string-markers/dp/163159477X?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=163159477X",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41j5fJuo3CL.jpg" ,
-        head1 : "Raksha Bandhan Special Edition 1 Parker Vector Roller Ball Pen with Chrome Trim With Rakhi and Roli" ,
-        head2 : "" ,
-        details : "Rakhis on Rakshabandhan are extremely special as they celebrate an ever lasting bond that you share with your sibling. Celebrate this auspicious festival of Rakhi with love and happiness by gifting your brother Designer Rakh with Parker Pen. No sketches or graphs are made, but the designs are verbally pre decided.Certain colors are specifically inserted to make the rakhi auspicious, pristine and sacrosant. Most of the designs follow age old saga of love, trust and affection between a brother and sister." ,
-        price : "315" ,
-        author : "" ,
-        whyData : "" ,
-        whyDetails : "" ,
-        howData : "" ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/51ngv%2BDb2RL.jpg",
+    head1:
+      "Learn Bengali Animal Names - Colorful Pictures & English Translations",
+    head2:
+      "Aditi S.'s Learn Bengali Animal Names - Colorful Pictures & English Translations",
+    details:
+      "Did you ever want to teach your kids Animal names in Bengali ? Learning Bengali can be fun with this book of animals. This is a note book sized book, making it easy for Children to hold, open and carry around. Compared to over sized book that are impractical for daily use. In this book you will find the following features: Bengali Animal Names. Animal Pictures. English Animal Names .",
+    PageNos: "",
+    price: "254",
+    author: "Aditi S.",
+    whyData:
+      "Why you should read Learn Bengali Animal Names - Colorful Pictures & English Translations by Aditi S.",
+    whyDetails:
+      "This book has been written by Aditi S., who has written books like Learn Gujarati Animal Names - Colorful Pictures & English Translations,Learn Marathi Animal Names - Colorful Pictures & English Translations,Learn Telugu Animal Names - Colorful Pictures & English Translations,Learn Bengali Animal Names - Colorful Pictures & English Translations,Learn Tamil Animal Names - Colorful Pictures & English Translations. The books are written in Language Learning category. This book is read by people who are interested in reading books in category : Language Learning. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData: "",
+    buyNow:
+      "https://www.amazon.in/Learn-Bengali-Animal-Names-Translations/dp/1983734888?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1983734888",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41Qi7INpCLL.jpg" ,
-        head1 : "Zaid Collections High Speed Pyraminx Stickerless Triangle Rubik Cube Puzzle" ,
-        head2 : "" ,
-        details : "Pyraminx Speed Cube Stickerless is the classic colour-matching puzzle that's a great mental challenge at Home or on the move. Turn and twist the sides of the cube so that each of the four faces only has one colour.Suitable for beginner and Professional player. Great corner cutting, Tension adjustable. It doesn't corner twist as often nor does it lock up. Difficult to pop, good control of the cube, comes pre-lubricated and tensioned. Definitely a good choice for you to improve Personal record in competitions. This cube can be used for international competitions. Combines high performance designs with good value. The stickerless pyramid never requires stickers, Crafted with original and eco-friendly ABS material, non-toxic, reliable, and lightweight and comfortable in the hand, harmless to human and environment. It is a classic color-matching puzzle in which the colour shift making it look like a mess, but once you solve it, it magically becomes perfect cube again. Improved anti-pop Technology and structure for extremely fast and smooth cornering. With lots of practice you can solve it in under 5 seconds! Enjoy hours of fun with you Family and friends." ,
-        price : "169" ,
-        author : "" ,
-        whyData : "" ,
-        whyDetails : "" ,
-        howData : "" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51DTil8cntL.jpg",
+    head1:
+      "The Darkest Minds Series Boxed Set [4-Book Paperback Boxed Set] (A Darkest Minds Novel)",
+    head2: "",
+    details:
+      "The Darkest Minds Series Boxed Set [4-Book Paperback Boxed Set] (A Darkest Minds Novel)",
+    PageNos: "2096",
+    price: "2111",
+    author: "	Alexandra Bracken",
+    whyData:
+      "Why you should read The Darkest Minds Series Boxed Set [4-Book Paperback Boxed Set] (A Darkest Minds Novel) by Alexandra Bracken",
+    whyDetails:
+      "This book has been written by Alexandra Bracken, who has written books like The Darkest Minds Series Boxed Set [4-Book Paperback Boxed Set] (A Darkest Minds Novel),A Darkest Minds Novel: The Darkest Legacy,The Darkest Minds (Film Tie-In Ed) (A Darkest Minds Novel),Wayfarer (Passenger),Passenger. The books are written in Literature & Fiction,Adventure,Historical Fiction category. This book is read by people who are interested in reading books in category : Literature & Fiction. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read The Darkest Minds Series Boxed Set [4-Book Paperback Boxed Set] (A Darkest Minds Novel)",
+    buyNow:
+      "https://www.amazon.in/Darkest-Minds-Boxed-4-Book-Paperback/dp/1368023371?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1368023371",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51VoOhBzLHL.jpg" ,
-        head1 : "Messi (Ultimate Football Heroes - Limited International Edition)" ,
-        head2 : "Matt Oldfield's Messi (Ultimate Football Heroes - Limited International Edition)" ,
-        details : "Complete your collection with these limited Ultimate Football Heroes International editions - now with a bonus World Cup chapter! Lionel Messi is a legend - Barcelona's star player and the world's best Footballer. But when was young, he was so small that his friends called him 'Little Leo' and coaches worried he wasn't big enough. Yet through bravery, talent and hard work, he proved them wrong. Messi tells the magical story of how the tiniest boy in South America grew up to become the greatest player on earth." ,
-        price : "160" ,
-        author : "	Matt Oldfield" ,
-        whyData : "Why you should read Messi (Ultimate Football Heroes - Limited International Edition) by Matt Oldfield" ,
-        whyDetails : "This book has been written by Matt Oldfield, who has written books like Van Dijk (Ultimate Football Heroes),De Bruyne - Collect Them All! (Ultimate Football Heroes),Salah (Ultimate Football Heroes),Kane (Ultimate Football Heroes - International Edition),Figo (Classic Football Heroes - Limited International Edition). The books are written in Sport category. This book is read by people who are interested in reading books in category : Sport. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Messi (Ultimate Football Heroes - Limited International Edition)" ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/517r7Ubco%2BL.jpg",
+    head1:
+      "Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, Single Volume, 11e",
+    head2:
+      "Douglas P. Zipes MD's Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, Single Volume, 11e",
+    details:
+      "Trusted by generations of cardiologists for the latest, most reliable guidance in the field, Braunwald's Heart Disease, 11th Edition, remains your #1 source of information on rapidly changing Clinical science, Clinical and translational research, and evidence-based medicine. This award-winning text has been completely updated, providing a superior Multimedia Reference for every aspect of this fast-changing field, including new material about almost every topic in cardiology.A unique update program by Dr. Braunwald creates a living textbook by featuring weekly Hot off the Press, periodic Late-Breaking Clinical Trials (including links to authors' presentation slides), and monthly Focused Reviews. More than a dozen new chapters cover Chronic Lung Disorders and Cardiovascular Disease; Transcatheter Treatment of Congenital Heart Disease; Approach to the Patient with Valvular Heart Disease; Obesity and Cardiometabolic Disease; Environmental Exposures and CVD; Approach to the Patient with Cardiac Arrhythmias; Cardio-oncology, Precision Medicine, and more. New information on Clinical cardiovascular genetics; MR PET; MR device compatibility; fibrosis; fusion imaging; OCT; IVUS; left atrial appendage exclusion approaches and other topics. Many new videos that elucidate coronary, peripheral, valvular, congenital heart Diseases and other cardiovascular Diseases. Expert ConsultT eBook version included with purchase. This enhanced eBook experience allows you to search all of the text, figures, and References from the book on a variety of devices.",
+    PageNos: "2040",
+    price: "14654",
+    author: "	Douglas P. Zipes MD",
+    whyData:
+      "Why you should read Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, Single Volume, 11e by Douglas P. Zipes MD",
+    whyDetails:
+      "This book has been written by Douglas P. Zipes MD, who has written books like Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, Single Volume, 11e,Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, 2-Volume Set, 11e. The books are written in Cardiology category. This book is read by people who are interested in reading books in category : Cardiology. So, if you want to explore books similar to This book, you must read and buy this book.This book has been written by Douglas P. Zipes MD, who has written books like Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, Single Volume, 11e,Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, 2-Volume Set, 11e. The books are written in Cardiology category. This book is read by people who are interested in reading books in category : Cardiology. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine, Single Volume, 11e",
+    buyNow:
+      "https://www.amazon.in/Braunwalds-Heart-Disease-Textbook-Cardiovascular/dp/0323462995?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=0323462995",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51PrGj2zyVL.jpg" ,
-        head1 : "Hematology and Coagulation: A Comprehensive Review for Board Preparation, Certification and Clinical Practice" ,
-        head2 : "Amer Wahed's Hematology and Coagulation: A Comprehensive Review for Board Preparation, Certification and Clinical Practice" ,
-        details : "Hematology and Coagulation: A Comprehensive Review for Board Preparation, Certification and Clinical Practice, Second Edition, takes a practical and easy-to-read approach to understanding Hematology and coagulation at an appropriate level for both board preparation and refresher courses. The book bridges the gap between large textBooks and medical technology Books written for laboratory technicians, providing the sufficient background in genetics, Toxicology and Immunology that residents and medical students need to know in order to become successful physicians. Readers will use this quick Reference to understand how tests are performed and how to interpret results. This clear and easy-to-read presentation of core topics and detailed case studies illustrates the application of hematopathology on patient care." ,
-        price : "7498" ,
-        author : "	Amer Wahed" ,
-        whyData : "Why you should read Hematology and Coagulation: A Comprehensive Review for Board Preparation, Certification and Clinical Practice by Amer Wahed" ,
-        whyDetails : "This book has been written by Amer Wahed, who has written books like Hematology and Coagulation: A Comprehensive Review for Board Preparation, Certification and Clinical Practice,Hematopathology and Coagulation: Questions, Answers and Explanations. The books are written in Biology & Life Sciences,Pathology category. This book is read by people who are interested in reading books in category : Biology & Life Sciences. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Hematology and Coagulation: A Comprehensive Review for Board Preparation, Certification and Clinical Practice" ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/51HCc%2B%2B4%2BJL.jpg",
+    head1: "Delhi through the Seasons",
+    head2: "KHUSHWANT SINGH's Delhi through the Seasons",
+    details:
+      "This is the diary of a nature lover, patterned after the traditional Baramasi of Indian poets. It tells us of the trees, flowers, fruits, Birds, snakes, insects and animals that are found in Delhi and its surroundings through the twelve months of the year. It also mentions the many fairs and festivals that are celebrated in the country; the story of clouds and what their shapes and movements mean; why hailstorms come in spring and early summer and not in winter; how Birds communicate with each other and why their calls vary with the seasons. Woven into the text are poems by Kalidasa, Guru Nanak, Meer Taqi Meer, Mirza Ghalib, Akbar Allahabadi, Rabindranath Tagore, Rudyard Kipling and many others. Delhi through the Seasons marks Khushwant Singh's classic collaboration with Suddhasattwa Basu, one of India's finest painters of natural phenomena. This collector's edition is a rare treasure.",
+    PageNos: "120",
+    price: "381",
+    author: "	KHUSHWANT SINGH",
+    whyData: "Why you should read Delhi through the Seasons by KHUSHWANT SINGH",
+    whyDetails:
+      "This book has been written by KHUSHWANT SINGH, who has written books like Delhi through the Seasons,India: An Introduction,DELHI,Delhi. The books are written in Earth Sciences,Society & Culture,Contemporary Fiction,Travel & Holiday Guides category. This book is read by people who are interested in reading books in category : Earth Sciences. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData: "How long would it take for you to read Delhi through the Seasons",
+    buyNow:
+      "https://www.amazon.in/Delhi-through-Seasons-KHUSHWANT-SINGH/dp/935302501X?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=935302501X",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51yTse%2BHDXL.jpg" ,
-        head1 : "Reasoning, Maths and Science Olympiad Workbook Combo - Class 6" ,
-        head2 : "Swastick Book Box's Reasoning, Maths and Science Olympiad Workbook Combo - Class 6" ,
-        details : "SBB Olympiad Workbooks help students to prepare for Olympiad exams through meticulously designed contents. The Workbooks help the child to focus on the basics of the subject and promotes logical brain development that improves child overall logical thought process and problem-solving skills. SBB Logical Reasoning, Science and Mathematics Olympiad Workbooks are a complete preparatory set for Olympiads. For better results in exams, Books also contain past years questions from various Olympiads. The Books are based on NCERT/CBSE/ICSE/IGCSE/IB/state-board syllabus so its complete preparatory set for Class 6 as well. Reasoning as a subject has an independent olympiad exam as well as a mandatory part of Science, Maths and Cyber Olympiad exams and make this combo a perfect buy for winning a medal in Science, Maths and Reasoning Olympiads." ,
-        price : "237" ,
-        author : "	Swastick Book Box" ,
-        whyData : "Why you should read Reasoning, Maths and Science Olympiad Workbook Combo - Class 6 by Swastick Book Box" ,
-        whyDetails : "This book has been written by Swastick Book Box, who has written books like Reasoning, Maths, Science and English Olympiad Workbook Combo - Class 5,Reasoning, Maths, Science, Cyber, English & GK Olympiad Workbook Combo - Class 3,Reasoning, Maths, Science and English Olympiad Workbook Combo - Class 2,Reasoning, Maths, Science, Cyber, English & GK Olympiad Workbook Combo - Class 4,SBB - Writing Practice Books [Set of 6]. The books are written in Olympiads & Scholarship Exams,Early Learning category. This book is read by people who are interested in reading books in category : Olympiads & Scholarship Exams. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51n14GqxdNL.jpg",
+    head1: "To End a Presidency: The Power of Impeachment",
+    head2: "Laurence Tribe's To End a Presidency: The Power of Impeachment",
+    details:
+      "The History and Future of our democracy's ultimate sanction, presidential impeachment, and a guide to how it should be used now To End a Presidency addresses one of today's most urgent questions: when and whether to impeach a president. Laurence Tribe and Joshua Matz provide an authoritative guide to impeachment's past and a bold argument about its proper role today. In an era of expansive presidential power and intense partisanship, we must rethink impeachment for the twenty-first century. Of impeachments, one Constitutional Convention delegate declared, A good magistrate will not fear them. A bad one will be kept in fear of them. To End a Presidency is an essential book for all Americans seeking to understand how this crucial but fearsome power should be exercised.",
+    PageNos: "304",
+    price: "1221",
+    author: "	Laurence Tribe",
+    whyData:
+      "Why you should read To End a Presidency: The Power of Impeachment by Laurence Tribe",
+    whyDetails:
+      "This book has been written by Laurence Tribe, who has written books like To End a Presidency: The Power of Impeachment,To End a Presidency: The Power of Impeachment,Uncertain Justice: The Roberts Court and the Constitution. The books are written in Political Theory,Politics category. This book is read by people who are interested in reading books in category : Political Theory. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read To End a Presidency: The Power of Impeachment",
+    buyNow:
+      "https://www.amazon.in/End-Presidency-Power-Impeachment/dp/1541644883?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1541644883",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51GSXEes5pL.jpg" ,
-        head1 : "How to Sail Through the Ukcat: Master the UK Clincal Aptitude Test: The Ultimate Cheat Sheet" ,
-        head2 : "Morgan Phillips's How to Sail Through the Ukcat: Master the UK Clincal Aptitude Test: The Ultimate Cheat Sheet" ,
-        details : "Each year, students experience difficulty preparing for the UKCAT - despite the wealth of avaibable information including: Online courses, Literature, Question guides and Crash-courses. The format of the UKCAT has not changed, but the average performance - and expectations from Medical and Dental schools - is on the rise. In short, the stakes are rising. 'How to Sail Through the UKCAT' condenses fail-safe strategies adopted by the strongest UKCAT applicants, into an informative read - including activities, answer guides, Advice and further reading resouces. You don't need to know much to ACE the UKCAT, but you do need to know how to approach it. Learn the secrets to scoring in the Top percentile with this bona fide no-waffle cheat sheet!" ,
-        price : "664" ,
-        author : "	Morgan Phillips" ,
-        whyData : "Why you should read How to Sail Through the Ukcat: Master the UK Clincal Aptitude Test: The Ultimate Cheat Sheet by Morgan Phillips" ,
-        whyDetails : "This book has been written by Morgan Phillips, who has written books like How to Sail Through the Ukcat: Master the UK Clincal Aptitude Test: The Ultimate Cheat Sheet. The books are written in Medicine category. This book is read by people who are interested in reading books in category : Medicine. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read How to Sail Through the Ukcat: Master the UK Clincal Aptitude Test: The Ultimate Cheat Sheet" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/41WJiVp41SL.jpg",
+    head1:
+      "CompTIA Linux+ Certification Guide: A comprehensive guide to achieving LX0-103 and LX0-104 certifications with mock exams",
+    head2:
+      "Philip Inshanally's CompTIA Linux+ Certification Guide: A comprehensive guide to achieving LX0-103 and LX0-104 certifications with mock exams",
+    details:
+      "Master the concepts and techniques that will help you gain the LX0-103 and LX0-104 certifications on your first attempt Key Features Get a clear understanding of how to achieve the Linux+ Certification Explore system Architecture, shell scripts, data management, and Linux Security Work through practice and mock tests to pass both LX0-103 and LX0-104 exams Book DescriptionLinux+ Certification demonstrates technical competency and provides a broad awareness of Linux operating systems. Professionals who have achieved the Linux+ Certification exhibit all-important knowledge of installation, operation, administration, and troubleshooting services. The CompTIA Linux+ Certification Guide is an overview of the Certification that gives you insights into the system Architecture. You'll understand how to install and uninstall Linux distributions, followed by working with various package managers. Once you've grasped all this, you'll move on to manipulating files and processes at command-line interface (CLI) and creating, monitoring, killing, restarting, and modifying processes. As you progress, you'll be equipped to Work with Display managers and learn how to create, modify, and remove user accounts and groups, as well as understand how to automate tasks. The last set of chapters helps you configure dates and set up local and remote system logging. In addition to this, you'll explore different Internet protocols, along with discovering network configuration, Security administration, Shell scripting, and SQL management. By the end of this book, you'll not only have got to grips with all the modules using practice questions and mock exams, but you'll also be well prepared to pass the LX0-103 and LX0-104 Certification exams. What you will learn Understand the Linux system Architecture Install, upgrade, and manage Linux system packages Configure devices and maintain the Linux filesystem Manage the Shell environment, write scripts, and manage data Set user interfaces and Desktops in the Linux operating system Automate system admin tasks and manage essential system Services Manage SQL server on Linux and log locally and remotely with rsyslogd Administer network and local Security Who this book is forThe CompTIA Linux+ Certification Guide is for you if you want to gain the CompTIA Linux+ certificate. This guide is also for system administrators and rookie Linux professionals interested in enhancing their Linux and Shell scripting skills. No prior knowledge of Linux is needed, although some understanding of Shell scripting would be helpful.",
+    PageNos: "590",
+    price: "1082",
+    author: "	Philip Inshanally",
+    whyData:
+      "Why you should read CompTIA Linux+ Certification Guide: A comprehensive guide to achieving LX0-103 and LX0-104 certifications with mock exams by Philip Inshanally",
+    whyDetails:
+      "This book has been written by Philip Inshanally, who has written books like CompTIA Linux+ Certification Guide: A comprehensive guide to achieving LX0-103 and LX0-104 certifications with mock exams. The books are written in Networks & System Administration category. This book is read by people who are interested in reading books in category : Networks & System Administration. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read CompTIA Linux+ Certification Guide: A comprehensive guide to achieving LX0-103 and LX0-104 certifications with mock exams",
+    buyNow:
+      "https://www.amazon.in/CompTIA-Linux-Certification-Guide-certifications/dp/1789344492?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1789344492",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51K7fwdkscL.jpg" ,
-        head1 : "Our Towns: A 100,000-Mile Journey into the Heart of America" ,
-        head2 : "James Fallows's Our Towns: A 100,000-Mile Journey into the Heart of America" ,
-        details : "***NATIONAL BEST SELLER***A vivid, surprising portrait of the civic and economic reinvention taking place in America, town by town and generally out of view of the national media. A realistically positive and provocative view of the country between its coasts. For the last five years, James and Deborah Fallows have been traveling across America in a single-engine prop airplane. Visiting dozens of towns, they have met hundreds of civic leaders, workers, immigrants, educators, environmentalists, artists, public servants, librarians, Business people, city planners, students, and entrepreneurs to take the pulse and understand the prospects of places that usually draw notice only after a disaster or during a political campaign. The America they saw is acutely conscious of its problems—from economic dislocation to the opioid scourge—but itis also Crafting solutions, with a practical-minded determination at dramatic odds with the bitter paralysis of national politics. At times of dysfunction on a national level, reform possibilities have often arisen from the local level. The Fallowses describe America in the middle of one of these creative waves. Their view of the country is as complex and contradictory as America itself, but it also reflects the energy, the generosity and compassion, the dreams, and the determination of many who are in the midst of making things better. Our Towns is the story of their journey—and an account of a country busy remaking itself." ,
-        price : "1054" ,
-        author : "	James Fallows" ,
-        whyData : "Why you should read Our Towns: A 100,000-Mile Journey into the Heart of America by James Fallows" ,
-        whyDetails : "This book has been written by James Fallows, who has written books like Our Towns: A 100,000-Mile Journey into the Heart of America,China Airborne: The Test of China's Future,Blind Into Baghdad: America's War in Iraq,Looking at the Sun: The Rise of the New East Asian Economic and Political System,Breaking The News: How the Media Undermine American Democracy. The books are written in Anthropology,Business & Economics,International Relations & Globalization,Economics,Political Structure & Processes category. This book is read by people who are interested in reading books in category : Anthropology. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Our Towns: A 100,000-Mile Journey into the Heart of America" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51Kbb8Y7TSL.jpg",
+    head1: "The Myth of the Twentieth Century",
+    head2: "Alfred Rosenberg's The Myth of the Twentieth Century",
+    details:
+      "Regarded as the second most important book to come out of Nazi Germany, Alfred Rosenberg's Der Mythus des zwanzigsten Jahrhunderts is a philosophical and political map which outlines the ideological background to the Nazi Party and maps out how that party viewed society, other races, social ordering, religion, art, Aesthetics and the structure of the state. The 'Mythus' to which Rosenberg (who was also editor of the Nazi Party newspaper) refers was the concept of blood, which, according to the preface, unchains the racial world-revolution. Rosenberg's no-hold barred depiction of the History of Christianity earned it the accusation that it was anti-Christian, and that unjustified controversy overshadowed the most interesting sections of the book which deal with the world racial situation and the demand for racially homogenous states as the only method to preserve individual world cultures. Rosenberg was hanged at Nuremberg on charges of 'waging wars of aggression' even though he had never served in the military, and it is likely that he was hanged purely because of this book. Contents Preface Book One: The Conflict of Values Chapter I. Race and Race Soul Chapter II. Love and Honour Chapter III. Mysticism and Action Book Two: Nature of Germanic Art Chapter I. Racial Aesthetics Chapter II. Will And Instinct Chapter III. Personality And Style Chapter IV. The Aesthetic Will Book Three: The Coming Reich Chapter I. Myth And Type Chapter II. The State And The Sexes Chapter III. Folk And State Chapter IV. Nordic German Law Chapter V. Church And School Chapter VI. A New System Of State Chapter VII. The Essential Unit",
+    PageNos: "	400",
+    price: "2342",
+    author: "	Alfred Rosenberg",
+    whyData:
+      "Why you should read The Myth of the Twentieth Century by Alfred Rosenberg",
+    whyDetails:
+      "This book has been written by Alfred Rosenberg, who has written books like The Myth of the Twentieth Century,The Myth of the Twentieth Century. The books are written in Political Ideologies category. This book is read by people who are interested in reading books in category : Political Ideologies. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read The Myth of the Twentieth Century",
+    buyNow:
+      "https://www.amazon.in/Myth-Twentieth-Century-Alfred-Rosenberg/dp/1389584658?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1389584658",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51Jtk6wjjTL.jpg" ,
-        head1 : "Love Unexpected" ,
-        head2 : "Ritu Kakar's Love Unexpected" ,
-        details : "Kaira is an independent girl, chasing her ambitions. Aveer is a strong-minded and successful entrepreneur, seeking expansion. When they get together to give wings to her venture, there are fireworks and a strange Chemistry between them. But there is something else walking along – kaira’s past. With drew’s presence looming large like the devil, kaira does not know how to accept her emotions for aveer. Her loved ones protect her from all harm fiercely, but will they succeed this time too? Amidst confusion of a promising future and the demons of the past, in trying to find faith and burying betrayal, and in the battle between kaira’s heart and her fears will love unexpected lead the way to happiness?." ,
-        price : "135" ,
-        author : "	Ritu Kakar" ,
-        whyData : "Why you should read Love Unexpected by Ritu Kakar" ,
-        whyDetails : "This book has been written by Ritu Kakar, who has written books like Love Unexpected. The books are written in Indian Writing category. This book is read by people who are interested in reading books in category : Indian Writing. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Love Unexpected" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/510UkXdUp7L.jpg",
+    head1:
+      "Hartmann's Theory of Chronic Diseases and Their Homeopathic Treatment, Vol. 3 (Classic Reprint)",
+    head2:
+      "Franz Hartmann's Hartmann's Theory of Chronic Diseases and Their Homeopathic Treatment, Vol. 3 (Classic Reprint)",
+    details:
+      "Excerpt from Hartmann's Theory of Chronic Diseases and Their Homeopathic Treatment, Vol. 3 Homoeopathic physicians should avail themselves of the means which the recent improvements in phy siology and Pathology have furnished us, to establish a more correct Diagnosis of the various Diseases which physicians are called upon to treat. What a pity that the modern discoveries in those sciences have not led to any great practical results in the hands of allceo pathic physicians It may even be said that they have done mischief, inasmuch as they have completely de molished the tottering faith of some of the best thinkers of the alloeopathic school in their Materia Medica. A more correct knowledge of the true character of disor ganizations and morbid Products showed conclusively that the curative Resources of the allceopathic Materia Medica were insufficient to restore the original healthy condition of the diseased part, and those physicians had therefore to content themselves with offering the patients learned dissertations on the nature of their sufferings, without being able to afford any relief. To the homcebpathic physician. However, the investiga tions of physiologists and pathologists are not lost. They extend his knowledge of the curative relations existing between his remedies and the disease, and enable him to build his Science of therapeutics upon a sure and permanent foundation. About the Publisher Forgotten Books publishes hundreds of thousands of rare and classic Books. Find more at www.forgottenBooks.com This book is a reproduction of an important Historical work. Forgotten Books uses state-of-the-art Technology to digitally reconstruct the work, preserving the original format whilst repairing imperfections present in the aged copy. In rare cases, an imperfection in the original, such as a blemish or missing page, may be replicated in our edition. We do, however, repair the vast majority of imperfections successfully; any imperfections that remain are intentionally left to preserve the state of such Historical works.",
+    PageNos: "250",
+    price: "707",
+    author: "	Franz Hartmann",
+    whyData:
+      "Why you should read Hartmann's Theory of Chronic Diseases and Their Homeopathic Treatment, Vol. 3 (Classic Reprint) by Franz Hartmann",
+    whyDetails:
+      "This book has been written by Franz Hartmann, who has written books like Magic, White and Black - The Science on Finite and Infinite Life - Containing Practical Hints for Students of Occultism,Magic, White and Black: The Science of Finite and Infinite Life. Eighth (American) Edition, Revised; Eighth (American) Edition, Revised,Hartmann's Theory of Chronic Diseases and Their Homeopathic Treatment, Vol. 3 (Classic Reprint),Magic White and Black,Die Weisheit Des Orients Von Kerning. The books are written in Mind, Body & Spirit,Alternative Medicine category. This book is read by people who are interested in reading books in category : Alternative Medicine. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Hartmann's Theory of Chronic Diseases and Their Homeopathic Treatment, Vol. 3 (Classic Reprint)",
+    buyNow:
+      "https://www.amazon.in/Hartmanns-Chronic-Diseases-Homeopathic-Treatment/dp/0282850902?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=0282850902",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/415AcfkPiZL.jpg" ,
-        head1 : "Rubiks Cube TamBoora Dul Dul High Stability Sticker Less Smooth Swing 3X3X3 Speed Cube for Faster Movement (Medium Size)" ,
-        head2 : "" ,
-        details : "Tamboora speed cube for high stability smooth movement for faster performance and durability specially designed for masterminds by Dul Dul. Good Quality" ,
-        price : "109" ,
-        author : "" ,
-        whyData : "" ,
-        whyDetails : "" ,
-        howData : "" ,
-    },
+  {
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/5123GOQYigL.jpg",
+    head1:
+      "Building on Bedrock: What Sam Walton, Walt Disney, and Other Great Self-Made Entrepreneurs Can Teach Us About Building Valuable Companies",
+    head2:
+      "Derek Lidow's Building on Bedrock: What Sam Walton, Walt Disney, and Other Great Self-Made Entrepreneurs Can Teach Us About Building Valuable Companies",
+    details:
+      "From Startup Leadership author, global CEO, and Entrepreneurship expert Derek Lidow comes the new, foundational guide to entrepreneurial success. 'Flat out, the best book on Entrepreneurship I have ever read.' -Roger Martin, author of Creating Great Choices Here's an astounding fact: Over half the working population will try their hand at being an entrepreneur during their working career. We all dream about achieving some combination of the fortune, fame, and control over our lives we associate with successful entrepreneurs. Those are admirable aspirations in a Society that counts on entrepreneurs to innovate and create new jobs. Our work-driven culture encourages us to take the entrepreneurial bait, but how can you know whether being an entrepreneur will end as a dream come true or a nightmare from which you cannot wake? Building on Bedrock helps answer that question. Based upon research, but told through the stories of American entrepreneurs Sam Walton, Walt Disney, EsteÌ e Lauder, Ray Kroc, and others, Building on Bedrock will help you understand the elements most essential to taking the entrepreneurial leap. Was it luck, talent, passion, charm, a rich uncle, or something else that was the key to this person's success? Which might be the key to your success? What you learn may surprise you.",
+    PageNos: "	288",
+    price: "1048",
+    author: "	Derek Lidow",
+    whyData:
+      "Why you should read Building on Bedrock: What Sam Walton, Walt Disney, and Other Great Self-Made Entrepreneurs Can Teach Us About Building Valuable Companies by Derek Lidow",
+    whyDetails:
+      "This book has been written by Derek Lidow, who has written books like Building on Bedrock: What Sam Walton, Walt Disney, and Other Great Self-Made Entrepreneurs Can Teach Us About Building Valuable Companies,Startup Leadership: How Savvy Entrepreneurs Turn Their Ideas into Successful Enterprises,Startup Leadership: How Savvy Entrepreneurs Turn Their Ideas into Successful Enterprises. The books are written in Business, Strategy & Management,Books category. This book is read by people who are interested in reading books in category : Business, Strategy & Management. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Building on Bedrock: What Sam Walton, Walt Disney, and Other Great Self-Made Entrepreneurs Can Teach Us About Building Valuable Companies",
+    buyNow:
+      "https://www.amazon.in/Building-Bedrock-Self-Made-Entrepreneurs-Companies/dp/163576176X?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=163576176X",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/51ruxbcny7L.jpg" ,
-        head1 : "Ballots and Breakups: The Games Politicians Play" ,
-        head2 : "Sunita Aron's Ballots and Breakups: The Games Politicians Play" ,
-        details : "Winning elections is not everything, what is crucial for the good health of a robust democracy is forming a Government.From strategically devised pre-poll alliances to hastily stitched together post-poll associations, noted journalist Sunita Aron has travelled the length and breadth of the country, painstakingly documenting the Drama and dharma of coalition Politics in India. The result of her exhaustive research and insightful analysis, Ballots and Breakups is a cracker of a read. As Indian voters deliver fractured verdicts, political parties resort to constructing fragile coalitions by hook or by crook. The hapless casualties of this relentless quest for power are the Indian voters and this book is for them, as the writer eloquently exhorts for the need of common guidelines on the formation of a Government in the case of a hung house. A gripping take on coalition Politics in India, Aron charts a riveting tale of modern Indian Politics that has all the masala of a Bollywood potboiler, but the ending, the writer asserts, has to be happy like that of any Hindi film, 'stable Governments and a prosperous society even in a hung house!'" ,
-        price : "273" ,
-        author : "Sunita Aron" ,
-        whyData : "Why you should read Ballots and Breakups: The Games Politicians Play by Sunita Aron" ,
-        whyDetails : "This book has been written by Sunita Aron, who has written books like Ballots and Breakups: The Games Politicians Play,Akhilesh Yadav: Winds of Change. The books are written in Political Ideologies,Biographies, Diaries & True Accounts category. This book is read by people who are interested in reading books in category : Political Ideologies. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read Ballots and Breakups: The Games Politicians Play" ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/51zF%2Be7h4UL.jpg",
+    head1:
+      "Digital Design: With an Introduction to the Verilog HDL, VHDL and System Verilog",
+    head2:
+      "M. Morris Mano's Digital Design: With an Introduction to the Verilog HDL, VHDL and System Verilog",
+    details:
+      "A modern update to a classic, authoritative text, Digital Design, 6th Edition teaches the fundamental concepts of Digital Design in a clear, accessible manner. The text presents the Basic Tools for the Design of Digital circuits and provides procedures suitable for a variety of Digital applications. Like the previous editions, this edition of Digital Design supports a multimodal approach to learning, with a focus on Digital design, regardless of language. Recognizing that three public-domain Languages Verilog, VHDL and System Verilog all play a role in Design flows for today’s Digital devices, the book offers parallel tracks of presentation of multiple languages.Features1. A parallel, but integrated, treatment of Verilog and VHDL, the main Hardware description Languages used in industry today makes the core text available to a wider audience of students and instructor backgrounds.2. Examples are presented in both Verilog and VHDL.3. An introduction to System Verilog has been added to the text.4. Problems at the end of the chapters have been revised and are stated in terms of a generic HDL, enabling the instructor to choose the language being used by the students.Table of Contents Chapter 1: Digital Systems and Binary NumbersChapter 2: Boolean Algebra and Logic GatesChapter 3: Gate-Level MinimizationChapter 4: Combinational LogicChapter 5: Synchronous Sequential LogicChapter 6: Registers and CountersChapter 7: Memory and Programmable LogicChapter 8: Design at the Register Transfer LevelChapter 9: Asynchronous Sequential LogicChapter 10: Digital Integrated CircuitsChapter 11: Standard Graphic SymbolsOnline - Chapter ​​12: Laboratory Experiments with Standard ICs and FPGAs.",
+    PageNos: "768",
+    price: "511",
+    author: "	M. Morris Mano",
+    whyData:
+      "Why you should read Digital Design: With an Introduction to the Verilog HDL, VHDL and System Verilog by M. Morris Mano",
+    whyDetails:
+      "This book has been written by M. Morris Mano, who has written books like Digital Design: with an Introduction to the Verilog Hdl,Digital Design: With an Introduction to the Verilog HDL, VHDL and System Verilog,Digital Logic and Computer Design (Old Edition),Digital Logic Design JNTU with CD,Digital Design: Anna University. The books are written in Computer Science,Software Design & Engineering,Computer & Video Games,Engineering category. This book is read by people who are interested in reading books in category : Software Design & Engineering. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read Digital Design: With an Introduction to the Verilog HDL, VHDL and System Verilog",
+    buyNow:
+      "https://www.amazon.in/Digital-Design-Introduction-Verilog-System/dp/9353062012?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9353062012",
+  },
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41MuYMBkiZL.jpg" ,
-        head1 : "The Principles of Sufism" ,
-        head2 : "'A'ishah AL-Ba'Uniyyah's The Principles of Sufism" ,
-        details : "The Principles of Sufism is a mystical guide book to help others on their spiritual path. Outlining the four principles of Repentance, Sincerity, Remembrance and Love, it traces the fundamental stages and states of the spiritual novice’s transformative journey, emphasizing the importance of embracing both human limitations and God’s limitless love. Drawing on lessons and readings from centuries-old Sufi tradition, ‘A’ishah advises the seeker to repent of selfishness and turn to a sincere life of love. In addition to his lucid translation, Th. Emil Homerin provides an insightful introduction, notes and a glossary to ‘A’ishah al-Ba‘uniyyah’s remarkable account of the pursuit of mystical illumination.‘A’ishah al-Ba‘uniyyah of Damascus was one of the great Women scholars in Islamic history. Born into a prominent Family of pious scholars and Sufi devotees, ‘A’ishah received a thorough Religious Education and memorized the Quran at age eight. A mystic and a prolific poet and writer, she composed more works in Arabic than any other woman before the twentieth century.Yet despite her extraordinary Literary and Religious achievements, ‘A’ishah al- Ba‘uniyyah remains largely unknown. For the first time, her key work, the Principles of Sufism, is available in English translation." ,
-        price : "190" ,
-        author : "	'A'ishah AL-Ba'Uniyyah" ,
-        whyData : "Why you should read The Principles of Sufism by 'A'ishah AL-Ba'Uniyyah" ,
-        whyDetails : "This book has been written by 'A'ishah AL-Ba'Uniyyah, who has written books like The Principles of Sufism. The books are written in Theology & Philosophy of Religion category. This book is read by people who are interested in reading books in category : Theology & Philosophy of Religion. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData : "How long would it take for you to read The Principles of Sufism" ,
-    },
+  {
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/51zcoUW%2BGLL.jpg",
+    head1: "The Nine Waves: The Extraordinary Story of Indian Cricket",
+    head2:
+      "Mihir Bose's The Nine Waves: The Extraordinary Story of Indian Cricket",
+    details:
+      "The nine waves is a tour de force. The most entertaining and comprehensive book on Cricket in this country to be published yet, it tells the story of the nine great waves that have rolled through the History of Indian Cricket, from India’s international debut in 1932 to the incredible achievements of viral Kohli’s team today. Each wave or era was chock-full of mesmerizing stars, thrilling moments, great victories, heart-breaking losses and significant turning points—this book tells the story of each of them in great detail. The first wave of Indian Cricket rolled in against the background of momentous changes in the country and the world: Gandhi’s Civil disobedience campaign, world War II and India becoming independent. Through each of the successive waves, India strengthened its position in the Cricketing firmament. Towards the end of the twentieth century, it became the most powerful nation in world Cricket—the prowess of the National team today matches the economic strength of the Cricketing establishment. As a five-year-old, the author saw Vijay Hazare, India’s first test-winning Captain, play. Since then he has been witness to some of the most dramatic moments of Indian Cricket: India’s first win in England in 1971, Kapil Dev lifting the world Cup in 1983 at Lord’s, Tendulkar’s first test century at old trafford in 1990, Sunil Gavaskar scoring his 30th test century, the 2011 World Cup in India where M. S. Dhoni emulated Kapil Dev, Virat Kohli in 2018 in England proving he is the best batsman in the world today and much more. He brings to the book his first-hand experience of some of the most seminal moments in Indian Cricket, his Encyclopaedic knowledge of the game and his unrivalled ability as a chronicler of the sport to create a magisterial History of Indian Cricket. Once dismissed by the English as the dull Dogs of Cricket, India is now eagerly courted by all Cricketing nations. On the field its Cricketers are displaying skills which make India a world-beater. Over a billion Indians, the greatest fan base in the world, treat their Cricketers as demigods. The nine waves is a fitting testimonial to the game’s only superpower.",
+    PageNos: "598",
+    price: "641",
+    author: "	Mihir Bose",
+    whyData:
+      "Why you should read The Nine Waves: The Extraordinary Story of Indian Cricket by Mihir Bose",
+    whyDetails:
+      "This book has been written by Mihir Bose, who has written books like The Nine Waves: The Extraordinary Story of Indian Cricket,The Indian Spy: The True Story of the Most Remarkable Secret Agent of World War II,Bollywood: A History,Silver: The Spy Who Fooled the Nazis: The Most Remarkable Agent of the Second World War,Game Changer. The books are written in Biographies & Autobiographies,True Accounts,Cinema & Broadcast category. This book is read by people who are interested in reading books in category : Biographies & Autobiographies. So, if you want to explore books similar to This book, you must read and buy this book.",
+    howData:
+      "How long would it take for you to read The Nine Waves: The Extraordinary Story of Indian Cricket",
+    buyNow:
+      "https://www.amazon.in/Nine-Waves-Extraordinary-Indian-Cricket/dp/9388292626?SubscriptionId=AKIAIUO4VXYJFOFNWAEA&tag=httptopicerco-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9388292626",
+  },
+];
 
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41GL-d%2BSEwL.jpg" ,
-        head1 : "Intensive Transactional Analysis Psychotherapy: An Integrated Model" ,
-        head2 : "Marco Sambin's Intensive Transactional Analysis Psychotherapy: An Integrated Model" ,
-        details : "Intensive Transactional Analysis Psychotherapy: An Integrated Model (ITAP) introduces a new approach of Psychotherapy. Based on psychoDynamic foundations, the ITAP integrates the most recent trends in short-term Dynamic Psychotherapy and Transactional Analysis. This book develops an innovative, clear and complete Clinical model of ITAP, and introduces the reader, step-by-step, to the theoretical basis underlying the technique of this intervention. The authors introduce the therapeutic procedure by bringing together the Theory with brief Clinical examples, thereby demonstrating the attitude of the intense therapist as well as which theoretical pathways to take to progress with the patient. In addition to the modulation of the technique based on the level of the patient’s suffering, there is also a systematic examination of which cases should be treated with ITAP, and in what way. Intensive Transactional Analysis Psychotherapy is a therapy which can be easily used by all therapists, and this book will be of great Interest to Transactional Analysis therapists and other therapists Interested in Transactional Analysis and short-term Dynamic Psychotherapy." ,
-        price : "2008" ,
-        author : "	Marco Sambin" ,
-        whyData : "Why you should read Intensive Transactional Analysis Psychotherapy: An Integrated Model by Marco Sambin" ,
-        whyDetails : "This book has been written by Marco Sambin, who has written books like Intensive Transactional Analysis Psychotherapy: An Integrated Model. The books are written in Social Welfare & Social Services category. This book is read by people who are interested in reading books in category : Social Welfare & Social Services. So, if you want to explore books similar to This book, you must read and buy this book." ,
-        howData :"How long would it take for you to read Intensive Transactional Analysis Psychotherapy: An Integrated Model",
-    },
-
-    {
-        imgUrl : "https://images-eu.ssl-images-amazon.com/images/I/41olnwqfFXL.jpg",
-        head1 : "Comprehensive Electromyography: With Clinical Correlations and Case Studies",
-        head2 : "Mark A. Ferrante's Comprehensive Electromyography: With Clinical Correlations and Case Studies",
-        details : "Electromyography (EMG) is a technique for evaluating and recording the Electrical activity produced by nerves and muscles. Interpreting EMG is a mandatory skill for neurologists and rehabilitation specialists. This textbook provides the reader with a detailed discussion of the concepts and principles underlying electrodiagnostic medicine. It is written for an audience without pre-existing knowledge in this discipline, including beginner technicians and physicians in training. It is an ideal review for seasoned practitioners and those preparing for board examinations. It begins with a review of the foundational sciences and works through the field in twenty chapters, including a large number of case studies demonstrating correct application and interpretation. Appendices of information frequently required in the EMG laboratory, such as Nerve Conduction Study techniques and their age-related normal values, anatomic regions assessed by each NCS and needle EMG studies, Safety issues, and other important topics, are also included.",
-        price : "4265",
-        author : "	Mark A. Ferrante",
-        whyData : "Why you should read Comprehensive Electromyography: With Clinical Correlations and Case Studies by Mark A. Ferrante",
-        whyDetails :"This book has been written by Mark A. Ferrante, who has written books like Comprehensive Electromyography: With Clinical Correlations and Case Studies. The books are written in Neurology category. This book is read by people who are interested in reading books in category : Neurology. So, if you want to explore books similar to This book, you must read and buy this book.",
-        howData : "How long would it take for you to read Comprehensive Electromyography: With Clinical Correlations and Case Studies",
-    },
-] ;
-
-localStorage.setItem("rawData",JSON.stringify(dataArr)) ;
+localStorage.setItem("rawData", JSON.stringify(dataArr));

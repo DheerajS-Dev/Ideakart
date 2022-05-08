@@ -13,65 +13,67 @@
 
     <div id="navbar">
         <div>
-            <div>
-                <h4 id="iKart"><a href="../HomePage/index.html">IDEAKART</a></h4>               
+          <div>
+            <h4 id="iKart"><a href="../HomePage/index.html">IDEAKART</a></h4>
+          </div>
+          <div>
+            <input type="text" placeholder="Search" id="search" />
+            <div id="button">
+              <a href="../SearchPage/searchPage.html">Search</a>
             </div>
-            <div>
-                <input type="text" placeholder="Search" id="search">
-                <div id="button"><a href="../SearchPage/searchPage.html">Search</a></div>
-            </div>
-            <div>
-                <div><a href="../about/about.html">About</a></div>
-                <div><a href="../ConatactPage/contact.html">Contact</a></div>
-                <div><a href="../sign/signin.html">Sign In</a></div>
-                <div><a href="../sign/signup.html">Sign Up</a></div>
-            </div>
+          </div>
+          <div id="ultra">
+            <div><a href="../about/about.html">About</a></div>
+            <div><a href="../ConatactPage/contact.html">Contact</a></div>
+            <div><a href="../sign/signin.html">Sign In</a></div>
+            <div><a href="../sign/signup.html">Sign Up</a></div>
+          </div>
         </div>
-    </div>
+      </div>
 
     <!-- Individual Part -->
     
-    <form id="form">
-        
-        <h1 class="h">Sign up</h1>
-        <div class="Name">
-            <label ><strong></b>Name</strong></label><br>
-            <input   type="name"  id="name"><br>
-        </div>
-        <div class="Mobile">
-            <label ><strong></b>Mobile Number</strong></label><br>
-            <input   type="number"  id="mobile"><br>
-        </div>
-        <div class="Email">
-            <label ><strong></b>Email</strong></label><br>
-            <input   type="email"   id="email"><br>
-        </div>
-        <div class="password">
-            <label ><strong></b>Password</strong></label><br>
-            <input   type="password"  id="pass1"><br>
-        </div>
-        <div class="password">
-            <label ><strong>Password Confirmation</strong></label><br>
-            <input   type="password"   id="pass2"><br>
-        </div>
-           
-            <input type="submit" value="Sign up"  class="btn" ></input><br>
-            <a href="signin.html">Log in</a><br>           
-      
-    </form>
+    <div id="containerU">
+        <form id="form">        
+            <h1>Sign up</h1>
+            <div class="Name">
+                <label ><strong></b>Name</strong></label><br>
+                <input   type="name"  id="name"><br>
+            </div>
+            <div class="Mobile">
+                <label ><strong></b>Mobile Number</strong></label><br>
+                <input   type="number"  id="mobile"><br>
+            </div>
+            <div class="Email">
+                <label ><strong></b>Email</strong></label><br>
+                <input   type="email"   id="email"><br>
+            </div>
+            <div class="password">
+                <label ><strong></b>Password</strong><i>(6 characters minimum)</i></label><br>
+                <input   type="password"  id="pass1"><br>
+            </div>
+            <div class="password">
+                <label ><strong>Password confirmation</strong></label><br>
+                <input   type="password"   id="pass2"><br>
+            </div>
+               
+                <input type="submit" value="Sign up"  id="btn" ></input><br>
+                <a href="signin.html">Log in</a><br>          
+        </form>
+    </div>
 
     <!-- About Part -->
 
     <div id="ul">
         <ul>
             <p>Get To Know Us</p>
-            <li><a href="about.html"> About</a></li>
+            <li><a href="../about/about.html"> About</a></li>
             <li><a href="../ConatactPage/contact.html">Contact</a></li>
             <li><a href="../SearchPage/searchPage.html">Search</a></li>
-            <li><a href="privacyPolicy.html"> Privacy Policy </a></li>
-            <li><a href="refundPolicy.html"> Refund policy</a></li>
-            <li> <a href="earnMoney.html"> Earn Money Online </a></li>
-            <li><a href="none"> QuickBuyer </a></li>
+            <li><a href="../about/privacyPolicy.html"> Privacy Policy </a></li>
+            <li><a href="../about/refundPolicy.html"> Refund policy</a></li>
+            <li> <a href="../about/earnMoney.html"> Earn Money Online </a></li>
+            <li><a href=""> QuickBuyer </a></li>
         </ul>
     </div>
 
@@ -101,7 +103,8 @@
   
         users.push(user);
         localStorage.setItem("users", JSON.stringify(users));
-        window.location.reload();
+        window.location.href = "../sign/signin.html" ;
       }
     }
   </script>
+  <script src="../Navbar/navbar.js"></script>
