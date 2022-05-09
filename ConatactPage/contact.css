@@ -5,36 +5,36 @@
     background-size: cover;
     padding-top: 100px;
 }
-#container{
+#containerC{
     width: 85%;
     margin: auto;
     text-align: center;
 }
-#container>div{
+#containerC>div{
     margin-top: 18px;
 }
-#container>p{
+#containerC>p{
     text-align: center;
     font-weight: 100;
     letter-spacing: -0.8px;
 }
-#container>div:nth-child(2){
+#containerC>div:nth-child(2){
     display: flex;
     justify-content: space-around;
 }
-#container>div:nth-child(3){
+#containerC>div:nth-child(3){
     display: flex;
     justify-content: space-around;
 }
-#container>div>div{
+#containerC>div>div{
     width: 48%;
     height: 60px;
 }
-h4{
+#containerC h4{
     text-align: center;
     margin-bottom: 10px;
 }
-#container input{
+#containerC input{
     width: 96%;
     height: 30px;
     outline: none;

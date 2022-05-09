@@ -82,6 +82,15 @@
   color: white;
   border: none;
 }
+#navbar option{
+  border: 1px solid rgb(204,204,204);
+  width: 300px;
+  height: 150px;
+  color: black;
+  margin-top: 15px;
+  background-color: white;
+}
+
 @media all and (min-width: 450px) and (max-width: 800px) {
   #navbar > div {
     width: 90%;

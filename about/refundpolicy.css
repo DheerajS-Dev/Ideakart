@@ -1,38 +1,24 @@
-#container {
-    /* border: 1px solid red; */
+#containerR {
     width: 85%;
     margin: auto;
 }
-
-h1 {
+#containerR h1 {
     font-size: 35px;
     font-family: inherit;
     font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    letter-spacing: 0.6px;
 }
-
-p {
-    font-size: 21px;
-    line-height: 1.58;
-    letter-spacing: -0.003em;
-    font-weight: 400;
-    font-style: normal
+#containerR p{
+   font-size: 21px;
+   /* margin-bottom: 18px; */
+   line-height: 42px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#ul{
-    /* border: 1px solid black; */
-    margin-top: 50px;
-    width: fit-content;
-    margin-left: 10%;
-    
-}
-#ul>ul>p{
-    margin-left: -30%;
-   font-size: 20px;
-}
-a{
-    list-style: disc;
-    text-decoration: none;
-    color: #337ab7;
-    font-size: 22px;
-    
-    
+#containerR h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }

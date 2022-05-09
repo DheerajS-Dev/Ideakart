@@ -10,7 +10,7 @@ document.getElementById("author_name").innerText = data.author;
 document.getElementById("why_data_para").innerText = data.whyData;
 document.getElementById("how_data_para").innerText = data.howData;
 document.getElementById("why_details_para").innerText = data.whyDetails;
-// document.getElementById("pages_super").innerText = data.PageNos;
+document.getElementById("pages").innerText = data.PageNos;
 
 buy_now = document.querySelector("#orange-buy-now");
 buy_now.addEventListener("click", myFunc);

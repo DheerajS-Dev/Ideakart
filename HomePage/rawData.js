@@ -427,7 +427,7 @@ var dataArr = [
       "Aditi S.'s Learn Bengali Animal Names - Colorful Pictures & English Translations",
     details:
       "Did you ever want to teach your kids Animal names in Bengali ? Learning Bengali can be fun with this book of animals. This is a note book sized book, making it easy for Children to hold, open and carry around. Compared to over sized book that are impractical for daily use. In this book you will find the following features: Bengali Animal Names. Animal Pictures. English Animal Names .",
-    PageNos: "",
+    PageNos: "420",
     price: "254",
     author: "Aditi S.",
     whyData:
