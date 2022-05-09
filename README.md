@@ -12,4 +12,9 @@ As you click on the buy now button you get redirected to the Amazon site where y
 
 Our team:
 
-Ejaz, Dheeraj, Radha, Ashish, Dillip, Feroz.
+Ejaz : fw18_0118 \
+Dheeraj : fw18_0417 \
+Radha : fw18_0048 \
+Ashish : fw18_0546 \
+Dilip : fw18_531 \
+Feroz : fp03_158
