@@ -40,19 +40,19 @@ This is a team project, built by us in the Construct Week - Unit 2 at Masai Scho
 
 ## Roles & Responsibilities :-
 
-- GitHub is Managed & Readme.md done by Akshit.
+- GitHub is Managed & Readme.md done by Dheeraj.
 
-- The Landing Page, navbar, footer is designed & functioned by Akshit.
+- The Landing Page is designed & functioned by Dheeraj.
 
-- The Searchbar, sign in dropdown and cart sidebar is designed and functioned by Akshit.
+- All products page and filter data is designed & functioned by Ejaz.
 
-- All products page and filter data is designed & functioned by Ayush.
+- The navbar, contact page is designed & functioned by Radha.
 
-- Regimens page, order confirmed page and all products array is designed & functioned by Bhushan.
+- The Sign In, Sign Up and data validation is designed and functioned by Ashish.
 
-- Checkout page is designed & functioned by Prabhat.
+- The footer, about page is designed & functioned by Dilip.
 
-- Payment Page is designed & functioned by Jagrati.
+- All the data needed for the clonig the website is managed by Feroz.
 
 ## Learning :-
 
