@@ -16,7 +16,7 @@ We have tried our best to make a fully-functional clone of Ideakart website that
 - **[Ejaz Ali Khan](https://github.com/ekhan4077)**
 - **[Ashish Monga](https://github.com/Ashishmonga00)**
 - **[Dilip Kumar Singh](https://github.com/dilipsingh076)**
-- **[Radha Pauchori](https://github.com/#)**
+- **[Radha Pachouri](https://github.com/#)**
 - **[Feroz Khan](https://github.com/#)**
 
 ### Pages & Features 👇
