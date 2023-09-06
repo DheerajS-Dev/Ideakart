@@ -12,7 +12,7 @@ We have tried our best to make a fully-functional clone of Ideakart website that
 
 ## Our Team Members ❤️
 
-- **[Dheeraj Singh](https://github.com/POPEYE-jpg)**
+- **[Dheeraj Singh](https://github.com/DheerajS-Dev)**
 - **[Ejaz Ali Khan](https://github.com/ekhan4077)**
 - **[Ashish Monga](https://github.com/Ashishmonga00)**
 - **[Dilip Kumar Singh](https://github.com/dilipsingh076)**
